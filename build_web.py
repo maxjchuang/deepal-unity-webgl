@@ -2,6 +2,7 @@
 import argparse
 import pathlib
 import subprocess
+import sys
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--unity', required=True, help='Absolute path to the Unity executable')
@@ -17,4 +18,6 @@ for phase in ['Import', 'BuildBundles', 'Build']:
         command += ['-buildTarget', 'WebGL']
     print('Running ' + phase, flush=True)
     subprocess.run(command, check=True)
+subprocess.run([sys.executable, str(project / 'tools/prepare_web_delivery.py'),
+                '--directory', str(project / 'Builds/S07DiagnosticWeb')], check=True)
 print('Web output: ' + str(project / 'Builds/S07DiagnosticWeb'))

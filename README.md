@@ -18,7 +18,7 @@ cd deepal-unity-webgl
 python3 -m http.server 8769 --bind 127.0.0.1 --directory docs
 ```
 
-打开 http://127.0.0.1:8769/ 。Python 只提供静态文件服务；场景逻辑在浏览器中运行。需要支持 WebGL 2 和 WebAssembly 的浏览器，不能通过 file 协议直接打开 index.html。首次加载主引擎，切车按需加载对应车型与环境。仓库包含约 500 MB 的已构建网页资源，首次 clone 和加载需要一定时间。
+打开 http://127.0.0.1:8769/ 。Python 只提供静态文件服务；场景逻辑在浏览器中运行。需要支持 WebGL 2 和 WebAssembly 的浏览器，不能通过 file 协议直接打开 index.html。首次加载主引擎，切车按需加载对应车型与环境。仓库包含约 540 MB 的已构建网页资源，首次 clone 和加载需要一定时间。
 
 ## 功能
 

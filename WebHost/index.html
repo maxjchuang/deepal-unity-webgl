@@ -29,7 +29,30 @@ window.addEventListener('deepal-state',event=>{
   if(button){button.setAttribute('aria-pressed',String(state.value));button.dataset.moving=String(state.moving);}
  }
 });
-createUnityInstance(canvas,{dataUrl:'Build/S07DiagnosticWeb.data?v=__BUILD_VERSION__',frameworkUrl:'Build/S07DiagnosticWeb.framework.js?v=__BUILD_VERSION__',codeUrl:'Build/S07DiagnosticWeb.wasm?v=__BUILD_VERSION__',streamingAssetsUrl:'StreamingAssets',companyName:'LocalRecovery',productName:'S07 Recovery Preview',productVersion:'0.1',devicePixelRatio:Math.min(devicePixelRatio,2),showBanner:(msg,type)=>{if(type==='error')error.textContent=msg;}},progress=>{loading.textContent='正在启动 Unity · '+Math.round(progress*100)+'%';}).then(instance=>{
+async function startUnity(){
+ const engineUrls={dataUrl:'Build/S07DiagnosticWeb.data?v=__BUILD_VERSION__',codeUrl:'Build/S07DiagnosticWeb.wasm?v=__BUILD_VERSION__'};
+ const temporary=[];
+ if(typeof DecompressionStream==='function'){
+  let finished=0;loading.textContent='正在加载 Unity 引擎…';
+  await Promise.all(Object.entries(engineUrls).map(async([key,url])=>{
+   const [path,query]=url.split('?');
+   const listing=await fetch(path+'.parts.json'+(query?'?'+query:''));
+   if(!listing.ok)throw new Error('引擎资源索引加载失败：'+listing.status);
+   const manifest=await listing.json();const blocks=new Array(manifest.files.length);let next=0;
+   async function worker(){while(next<manifest.files.length){const i=next++;let lastError;
+    for(let attempt=0;attempt<3;attempt++){try{const response=await fetch('Build/'+manifest.files[i]);if(!response.ok)throw new Error('资源加载失败：'+response.status);blocks[i]=await response.arrayBuffer();lastError=null;break;}catch(err){lastError=err;}}
+    if(lastError)throw lastError;
+   }}
+   await Promise.all(Array.from({length:Math.min(3,manifest.files.length)},worker));
+   const bytes=await new Response(new Blob(blocks).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();
+   const blob=URL.createObjectURL(new Blob([bytes],{type:key==='codeUrl'?'application/wasm':'application/octet-stream'}));
+   engineUrls[key]=blob;temporary.push(blob);finished++;
+   loading.textContent='引擎资源已就绪 · '+finished+'/2';
+  }));
+ }
+ try{return await createUnityInstance(canvas,{...engineUrls,frameworkUrl:'Build/S07DiagnosticWeb.framework.js?v=__BUILD_VERSION__',streamingAssetsUrl:'StreamingAssets',companyName:'LocalRecovery',productName:'S07 Recovery Preview',productVersion:'0.1',devicePixelRatio:Math.min(devicePixelRatio,2),showBanner:(msg,type)=>{if(type==='error')error.textContent=msg;}},progress=>{loading.textContent='正在启动 Unity · '+Math.round(progress*100)+'%';});}finally{temporary.forEach(url=>URL.revokeObjectURL(url));}
+}
+startUnity().then(instance=>{
  const root='S07_OriginalHierarchy';
  const send=(method,arg='')=>instance.SendMessage('GarageRuntime','Request',JSON.stringify({method,arg}));
  window.garageSend=send;window.garageSelect=id=>instance.SendMessage('GarageRuntime','SelectVehicle',id);

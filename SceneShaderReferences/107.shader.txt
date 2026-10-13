@@ -1,0 +1,36 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/Environment/Cloud" {
+Properties {
+
+_Alpha ("Alpha", Range(0, 1)) = 1.0
+
+_FlatCloudsBaseTexture ("Base Map", 2D) = "black" { }
+
+_FlatCloudsDetailTexture ("Detail Map", 2D) = "black" { }
+
+_FlatCloudsParams ("_FlatCloudsParams", Vector) = (1,1,1,1)
+
+_FlatCloudsTiling ("_FlatCloudsTiling", Vector) = (1,1,1,1)
+
+_FlatCloudsAnimation ("_FlatCloudsAnimation", Vector) = (1,1,1,1)
+
+_FlatCloudsLightingParams ("_FlatCloudsLightingParams", Vector) = (1,1,1,1)
+
+_FlatCloudsAmbientColor ("_FlatCloudsAmbientColor", Color) = (1,1,1,1)
+
+}
+SubShader {
+ LOD 100
+ Tags { "PreviewType" = "Skybox" "QUEUE" = "Transparent-3" "RenderType" = "Transparent" }
+ Pass {
+  LOD 100
+  Tags { "LIGHTMODE" = "FORWARDBASE" "PreviewType" = "Skybox" "QUEUE" = "Transparent-3" "RenderType" = "Transparent" }
+ ZWrite Off
+  GpuProgramID 40867
+}
+}
+}

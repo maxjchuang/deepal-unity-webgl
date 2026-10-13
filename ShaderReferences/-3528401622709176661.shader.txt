@@ -1,0 +1,24 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "CarRP/Unlit/DepthOnlyRefection" {
+Properties {
+
+[Toggle] fixMirror ("FixMirror", Float) = 0.0
+
+[Enum(UnityEngine.Rendering.CullMode)] _Cull ("Cull", Float) = 2.0
+
+}
+SubShader {
+ LOD 100
+ Tags { "QUEUE" = "Geometry" "RenderType" = "Opaque" }
+ Pass {
+  LOD 100
+  Tags { "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Geometry" "RenderType" = "Opaque" }
+ Cull Off
+  GpuProgramID 7229
+}
+}
+}

@@ -1,0 +1,814 @@
+[
+  {
+    "path_id": "-4850512016903265157",
+    "name": "Standard",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 6,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-6.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 7,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL",
+          "LIGHTPROBE_SH"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-7.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 8,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL",
+          "SHADOWS_SCREEN"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-8.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 9,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL",
+          "LIGHTPROBE_SH",
+          "SHADOWS_SCREEN"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-9.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 10,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL",
+          "VERTEXLIGHT_ON"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-10.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 11,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL",
+          "LIGHTPROBE_SH",
+          "VERTEXLIGHT_ON"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-11.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 12,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL",
+          "SHADOWS_SCREEN",
+          "VERTEXLIGHT_ON"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-12.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 13,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL",
+          "LIGHTPROBE_SH",
+          "SHADOWS_SCREEN",
+          "VERTEXLIGHT_ON"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-13.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 24,
+        "type": "4",
+        "keywords": [
+          "POINT"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-24.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 25,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-25.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 26,
+        "type": "4",
+        "keywords": [
+          "SPOT"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-26.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 27,
+        "type": "4",
+        "keywords": [
+          "POINT_COOKIE"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-27.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 28,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL_COOKIE"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-28.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 29,
+        "type": "4",
+        "keywords": [
+          "SHADOWS_DEPTH",
+          "SPOT"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-29.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 30,
+        "type": "4",
+        "keywords": [
+          "SHADOWS_DEPTH",
+          "SHADOWS_SOFT",
+          "SPOT"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-30.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 31,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL",
+          "SHADOWS_SCREEN"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-31.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 32,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL_COOKIE",
+          "SHADOWS_SCREEN"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-32.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 33,
+        "type": "4",
+        "keywords": [
+          "POINT",
+          "SHADOWS_CUBE"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-33.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 34,
+        "type": "4",
+        "keywords": [
+          "POINT",
+          "SHADOWS_CUBE",
+          "SHADOWS_SOFT"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-34.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 35,
+        "type": "4",
+        "keywords": [
+          "POINT_COOKIE",
+          "SHADOWS_CUBE"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-35.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 36,
+        "type": "4",
+        "keywords": [
+          "POINT_COOKIE",
+          "SHADOWS_CUBE",
+          "SHADOWS_SOFT"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-36.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 38,
+        "type": "4",
+        "keywords": [
+          "SHADOWS_DEPTH"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-38.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 39,
+        "type": "4",
+        "keywords": [
+          "SHADOWS_CUBE"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-39.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 42,
+        "type": "4",
+        "keywords": [],
+        "file": "ShaderReferences/-4850512016903265157-9-42.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 43,
+        "type": "4",
+        "keywords": [
+          "LIGHTPROBE_SH"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-43.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 44,
+        "type": "4",
+        "keywords": [
+          "UNITY_HDR_ON"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-44.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 45,
+        "type": "4",
+        "keywords": [
+          "LIGHTPROBE_SH",
+          "UNITY_HDR_ON"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-45.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 49,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-49.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 50,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL",
+          "LIGHTPROBE_SH"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-50.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 51,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL",
+          "VERTEXLIGHT_ON"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-51.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 52,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL",
+          "LIGHTPROBE_SH",
+          "VERTEXLIGHT_ON"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-52.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 62,
+        "type": "4",
+        "keywords": [
+          "POINT"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-62.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 63,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-63.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 64,
+        "type": "4",
+        "keywords": [
+          "SPOT"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-64.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 65,
+        "type": "4",
+        "keywords": [
+          "POINT_COOKIE"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-65.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 66,
+        "type": "4",
+        "keywords": [
+          "DIRECTIONAL_COOKIE"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-66.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 67,
+        "type": "4",
+        "keywords": [
+          "SHADOWS_DEPTH",
+          "SPOT"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-67.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 68,
+        "type": "4",
+        "keywords": [
+          "POINT",
+          "SHADOWS_CUBE"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-68.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 69,
+        "type": "4",
+        "keywords": [
+          "POINT_COOKIE",
+          "SHADOWS_CUBE"
+        ],
+        "file": "ShaderReferences/-4850512016903265157-9-69.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "-4593808799478312577",
+    "name": "CarRP/Unlit/KnobLight",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "4",
+        "keywords": [
+          "",
+          "",
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial\u0014\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000UnityPerDraw\udca0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000n\u000e\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#de",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "file": "ShaderReferences/-4593808799478312577-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "ShaderReferences/-4593808799478312577-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "-3528401622709176661",
+    "name": "CarRP/Unlit/DepthOnlyRefection",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "4",
+        "keywords": [
+          "",
+          "",
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000UnityPerDraw\udca0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcd7\u000b\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#de",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "file": "ShaderReferences/-3528401622709176661-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "ShaderReferences/-3528401622709176661-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "-1566999676307451746",
+    "name": "CarRP/Lit/Transparent",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 2,
+        "type": "4",
+        "keywords": [
+          "BASE_MAP"
+        ],
+        "file": "ShaderReferences/-1566999676307451746-9-2.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 3,
+        "type": "4",
+        "keywords": [
+          "AO",
+          "BENT_NORMAL",
+          "CLEAR_COAT",
+          "EMISSION",
+          "FRENSNEL_COLOR",
+          "IBL"
+        ],
+        "file": "ShaderReferences/-1566999676307451746-9-3.glsl"
+      }
+    ],
+    "structure_export_error": "5"
+  },
+  {
+    "path_id": "2391109734448446470",
+    "name": "Legacy Shaders/VertexLit",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 3,
+        "type": "4",
+        "keywords": [],
+        "file": "ShaderReferences/2391109734448446470-9-3.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 4,
+        "type": "4",
+        "keywords": [
+          "POINT"
+        ],
+        "file": "ShaderReferences/2391109734448446470-9-4.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 5,
+        "type": "4",
+        "keywords": [
+          "SPOT"
+        ],
+        "file": "ShaderReferences/2391109734448446470-9-5.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 7,
+        "type": "4",
+        "keywords": [],
+        "file": "ShaderReferences/2391109734448446470-9-7.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 9,
+        "type": "4",
+        "keywords": [
+          "SHADOWS_DEPTH"
+        ],
+        "file": "ShaderReferences/2391109734448446470-9-9.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 10,
+        "type": "4",
+        "keywords": [
+          "SHADOWS_CUBE"
+        ],
+        "file": "ShaderReferences/2391109734448446470-9-10.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "2603354566935345476",
+    "name": "CarRP/Lit/OpaqueWheelFX",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "5",
+        "keywords": [
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000e\u0000\u0000\u0000Unit",
+          "",
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial\udcf0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000UnityPerDraw\udca0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0002\u0000\u0000\u0000AO\u0000\u0000\u000b\u0000\u0000\u0000BENT_NORMAL\u0000\b\u0000\u0000\u0000BUMP_MAP\b\u0000\u0000\u0000EMISSION\u0003\u0000\u0000\u0000IBL\u0000\u0013\u0000\u0000\u0000SPECULAR_HIGHLIGHTS\u0000\udcb3L\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNI",
+          ""
+        ],
+        "file": "ShaderReferences/2603354566935345476-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [
+          "AO",
+          "BENT_NORMAL",
+          "BUMP_MAP",
+          "EMISSION",
+          "IBL",
+          "SPECULAR_HIGHLIGHTS"
+        ],
+        "file": "ShaderReferences/2603354566935345476-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "2702640710480308407",
+    "name": "CarRP/Lit/Opaque",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 8,
+        "type": "4",
+        "keywords": [
+          "AO",
+          "BASE_MAP",
+          "BENT_NORMAL",
+          "IBL"
+        ],
+        "file": "ShaderReferences/2702640710480308407-9-8.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 9,
+        "type": "4",
+        "keywords": [
+          "AO",
+          "BENT_NORMAL",
+          "EMISSION",
+          "IBL"
+        ],
+        "file": "ShaderReferences/2702640710480308407-9-9.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 10,
+        "type": "4",
+        "keywords": [
+          "AO",
+          "BENT_NORMAL",
+          "BUMP_MAP",
+          "EMISSION",
+          "IBL"
+        ],
+        "file": "ShaderReferences/2702640710480308407-9-10.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 11,
+        "type": "4",
+        "keywords": [
+          "AO",
+          "BENT_NORMAL",
+          "EMISSION",
+          "FRENSNEL_COLOR",
+          "IBL"
+        ],
+        "file": "ShaderReferences/2702640710480308407-9-11.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 12,
+        "type": "4",
+        "keywords": [
+          "AO",
+          "BENT_NORMAL",
+          "EMISSION",
+          "FRENSNEL_COLOR",
+          "IBL",
+          "SPECULAR_HIGHLIGHTS"
+        ],
+        "file": "ShaderReferences/2702640710480308407-9-12.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 13,
+        "type": "4",
+        "keywords": [
+          "AO",
+          "BENT_NORMAL",
+          "BUMP_MAP",
+          "EMISSION",
+          "FRENSNEL_COLOR",
+          "IBL",
+          "SPECULAR_HIGHLIGHTS"
+        ],
+        "file": "ShaderReferences/2702640710480308407-9-13.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 14,
+        "type": "4",
+        "keywords": [
+          "AO",
+          "BASE_MAP",
+          "BENT_NORMAL",
+          "BUMP_MAP",
+          "EMISSION",
+          "FRENSNEL_COLOR",
+          "IBL",
+          "SPECULAR_HIGHLIGHTS"
+        ],
+        "file": "ShaderReferences/2702640710480308407-9-14.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 15,
+        "type": "4",
+        "keywords": [
+          "AO",
+          "BENT_NORMAL",
+          "CLEAR_COAT",
+          "CLEAR_COAT_HIGHLIGHTS",
+          "EMISSION",
+          "FRENSNEL_COLOR",
+          "GSAA",
+          "IBL",
+          "SPECULAR_HIGHLIGHTS"
+        ],
+        "file": "ShaderReferences/2702640710480308407-9-15.glsl"
+      }
+    ],
+    "structure_export_error": "5"
+  },
+  {
+    "path_id": "4489689049854936422",
+    "name": "CarRP/Hidden/Collision",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "5",
+        "keywords": [
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000e\u0000\u0000\u0000UnityPerCamera\u0000\u0000\udcc0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000Unit",
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000C\u000e\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNI",
+          "",
+          ""
+        ],
+        "file": "ShaderReferences/4489689049854936422-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "ShaderReferences/4489689049854936422-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "5274092061326050342",
+    "name": "CarRP/Unlit/Mirror",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "ShaderReferences/5274092061326050342-9-recovered.glsl"
+      }
+    ],
+    "structure_export_error": "unpack_from requires a buffer of at least 7020 bytes for unpacking 4 bytes at offset 7016 (actual buffer size is 7016)",
+    "decode_errors": [
+      {
+        "platform": 9,
+        "error": "unpack_from requires a buffer of at least 7020 bytes for unpacking 4 bytes at offset 7016 (actual buffer size is 7016)"
+      }
+    ],
+    "recoveryNote": "Original GLSL extracted from decompressed blob; trailing metadata parse failed, shader text intact."
+  },
+  {
+    "path_id": "5390406793635202794",
+    "name": "CarRP/Unlit/Shadow",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "4",
+        "keywords": [
+          "",
+          "",
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial\u0018\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000UnityPerDraw\udca0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000`\r\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1\n#if HLSLCC_ENABLE",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "file": "ShaderReferences/5390406793635202794-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "ShaderReferences/5390406793635202794-9-1.glsl"
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "ports": [
+    {
+      "originalShader": "Hidden/BG_Charge",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/BG_Charge/Variant1",
+      "sourceProgram": "SceneShaderReferences/87-9-1.glsl",
+      "sha256": "0f76e5d5af22983aa9bc02cf560a7e19b9611fce8008e22bf4f94c0bbd5e545d",
+      "generatedShader": "Assets/RecoveredChargeShaders/Hidden_BG_Charge_1.shader"
+    }
+  ]
+}

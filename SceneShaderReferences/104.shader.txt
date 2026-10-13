@@ -1,0 +1,23 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Unlit/Effect1" {
+Properties {
+
+_MainTex ("_MainTex", 2D) = "white" { }
+
+}
+SubShader {
+ LOD 100
+ Tags { "QUEUE" = "Transparent+10" "RenderType" = "Transparent" }
+ Pass {
+  LOD 100
+  Tags { "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Transparent+10" "RenderType" = "Transparent" }
+ ZTest Off
+ ZWrite Off
+  GpuProgramID 58641
+}
+}
+}

@@ -1,0 +1,12 @@
+{
+  "ports": [
+    {
+      "originalShader": "Hidden/Collision",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/Collision/Variant1",
+      "sourceProgram": "SceneShaderReferences/81-9-1.glsl",
+      "sha256": "b825da360d0d2f2ec466205fc42b09a191f0e9d4049283b91d0d5f155a0db4eb",
+      "generatedShader": "Assets/RecoveredCollisionShaders/Hidden_Collision_1.shader"
+    }
+  ]
+}

@@ -1,0 +1,1117 @@
+[
+  {
+    "path_id": "71",
+    "name": "Hidden/Dot",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/71-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "72",
+    "name": "Hidden/BG_Blank",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "3",
+        "keywords": [
+          "",
+          "",
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial\u001c\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcc8\f\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNI",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "file": "SceneShaderReferences/72-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/72-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "73",
+    "name": "CarRP/Unlit/Road",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "4",
+        "keywords": [
+          "",
+          "",
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial\u0018\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000UnityPerDraw\udca0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000J\u0012\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1\n#if HLSLCC_ENABLE",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "file": "SceneShaderReferences/73-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/73-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "74",
+    "name": "Hidden/SkyGradient",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "4",
+        "keywords": [
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000",
+          "",
+          "UnityPerCamera",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000UnityPerDraw\udca0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\r\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_U",
+          "",
+          ""
+        ],
+        "file": "SceneShaderReferences/74-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/74-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "75",
+    "name": "Hidden/AmbientScent",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "3",
+        "keywords": [
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial\u001c\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcff\u0017\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "file": "SceneShaderReferences/75-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/75-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "76",
+    "name": "Hidden/RainRingUpdate",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/76-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "77",
+    "name": "Hidden/Dot",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/77-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "78",
+    "name": "Hidden/BG_Photo",
+    "platforms": [
+      9
+    ],
+    "programs": [],
+    "structure_export_error": "unpack_from requires a buffer of at least 2732 bytes for unpacking 4 bytes at offset 2728 (actual buffer size is 2728)",
+    "decode_errors": [
+      {
+        "platform": 9,
+        "error": "unpack_from requires a buffer of at least 2732 bytes for unpacking 4 bytes at offset 2728 (actual buffer size is 2728)"
+      }
+    ]
+  },
+  {
+    "path_id": "79",
+    "name": "Hidden/BG_CarCenter",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/79-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "80",
+    "name": "Hidden/Cubemap",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/80-9-1.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 2,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/80-9-2.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 3,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/80-9-3.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 4,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/80-9-4.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 5,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/80-9-5.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 6,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/80-9-6.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 7,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/80-9-7.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 8,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/80-9-8.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "81",
+    "name": "Hidden/Collision",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "3",
+        "keywords": [
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcc1\n\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "file": "SceneShaderReferences/81-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/81-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "82",
+    "name": "CarRP/Lit/OpaqueLicensePlate",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 2,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/82-9-2.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 3,
+        "type": "4",
+        "keywords": [
+          "AO",
+          "BASE_MAP",
+          "IBL"
+        ],
+        "file": "SceneShaderReferences/82-9-3.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "83",
+    "name": "Hidden/InteriorUI",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/83-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "84",
+    "name": "Hidden/ShootingStar",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "4",
+        "keywords": [
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000e\u0000\u0000\u0000Unit",
+          "",
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udc82\u0016\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNI",
+          ""
+        ],
+        "file": "SceneShaderReferences/84-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/84-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "85",
+    "name": "Hidden/Star",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "3",
+        "keywords": [
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0015\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNI",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "file": "SceneShaderReferences/85-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/85-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "86",
+    "name": "Hidden/Update",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/86-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "87",
+    "name": "Hidden/BG_Charge",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "5",
+        "keywords": [
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000e\u0000\u0000\u0000UnityPerCamera\u0000\u0000\udcc0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial,\u0000\u0000\u0000",
+          "",
+          "",
+          "UnityPerDraw",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcef \u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNI",
+          ""
+        ],
+        "file": "SceneShaderReferences/87-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/87-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "88",
+    "name": "Hidden/Snow",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "4",
+        "keywords": [
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000e\u0000\u0000\u0000UnityPerCamera\u0000\u0000\udcc0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial\u0018\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udccd\u0016\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "file": "SceneShaderReferences/88-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/88-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "89",
+    "name": "Hidden/BG_EnergyCenter",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "3",
+        "keywords": [
+          "",
+          "",
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial,\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000'\u000f\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNI",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "file": "SceneShaderReferences/89-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/89-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "90",
+    "name": "Hidden/Dot",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/90-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "91",
+    "name": "Hidden/Update",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "2",
+        "keywords": [
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f",
+          "\u0000\u0000\u0000\u0000",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "file": "SceneShaderReferences/91-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/91-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "92",
+    "name": "Hidden/Update",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/92-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "93",
+    "name": "CarRP/Lit/FloorDark",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 2,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/93-9-2.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 3,
+        "type": "4",
+        "keywords": [
+          "BASE_MAP",
+          "IBL"
+        ],
+        "file": "SceneShaderReferences/93-9-3.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "94",
+    "name": "Hidden/RainDrop",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/94-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "95",
+    "name": "Hidden/Dot",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "3",
+        "keywords": [
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcdb\u0010\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNI",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "file": "SceneShaderReferences/95-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/95-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "96",
+    "name": "Hidden/Highlight",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/96-9-1.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 2,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/96-9-2.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "97",
+    "name": "Hidden/SnowCompute",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/97-9-1-recovered.glsl",
+        "recovery": {
+          "blobOffset": 104,
+          "blobSize": 3836,
+          "codeStart": 32,
+          "codeBytes": 3794,
+          "sha256": "3883faeca4920f0f3caae1085287ad4866785c7930613f2456cf107b92708284"
+        }
+      },
+      {
+        "platform": 9,
+        "index": 3,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/97-9-3-recovered.glsl",
+        "recovery": {
+          "blobOffset": 3992,
+          "blobSize": 6320,
+          "codeStart": 32,
+          "codeBytes": 6279,
+          "sha256": "cd526a273b607c2d8c47d0b583002cdeb348b3a3c1b1392a4912ce46a5e49c93"
+        }
+      }
+    ],
+    "structure_export_error": "unpack_from requires a buffer of at least 10316 bytes for unpacking 4 bytes at offset 10312 (actual buffer size is 10312)",
+    "decode_errors": [
+      {
+        "platform": 9,
+        "error": "unpack_from requires a buffer of at least 10316 bytes for unpacking 4 bytes at offset 10312 (actual buffer size is 10312)"
+      }
+    ],
+    "recoveryNote": "Extracted intact GLSL from original indexed blob records; no padding or guessed instructions. Generic metadata decoder still fails on trailing record alignment."
+  },
+  {
+    "path_id": "98",
+    "name": "CarRP/Lit/TransparentChargerLine",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 2,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/98-9-2.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 3,
+        "type": "4",
+        "keywords": [
+          "AO",
+          "IBL"
+        ],
+        "file": "SceneShaderReferences/98-9-3.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "99",
+    "name": "CarRP/Unlit/AirConditionApp",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "5",
+        "keywords": [
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000",
+          "",
+          "UnityPerCamera",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterialL\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000UnityPerDraw\udca0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000M'\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1\n#if HLSLCC_ENABLE",
+          "",
+          ""
+        ],
+        "file": "SceneShaderReferences/99-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/99-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "100",
+    "name": "Hidden/RainRing",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "4",
+        "keywords": [
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000e\u0000\u0000\u0000Unit",
+          "",
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial\u0018\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0019\u001e\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNI",
+          ""
+        ],
+        "file": "SceneShaderReferences/100-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/100-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "101",
+    "name": "Hidden/Update",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "2",
+        "keywords": [
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "file": "SceneShaderReferences/101-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/101-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "102",
+    "name": "Hidden/Update",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/102-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "103",
+    "name": "Hidden/RainDropCompute",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/103-9-1.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 2,
+        "type": "2",
+        "keywords": [
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "file": "SceneShaderReferences/103-9-2.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 3,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/103-9-3.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "104",
+    "name": "Unlit/Effect1",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "3",
+        "keywords": [
+          "",
+          "",
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000UnityPerDraw\udca0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udc90\u0018\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_U",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "file": "SceneShaderReferences/104-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/104-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "105",
+    "name": "CarRP/Lit/Opaque",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 2,
+        "type": "4",
+        "keywords": [
+          "AO",
+          "BENT_NORMAL",
+          "EMISSION",
+          "IBL"
+        ],
+        "file": "SceneShaderReferences/105-9-2.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 3,
+        "type": "4",
+        "keywords": [
+          "AO",
+          "BENT_NORMAL",
+          "BUMP_MAP",
+          "EMISSION",
+          "IBL"
+        ],
+        "file": "SceneShaderReferences/105-9-3.glsl"
+      }
+    ],
+    "structure_export_error": "5"
+  },
+  {
+    "path_id": "106",
+    "name": "Hidden/Sky",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/106-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "107",
+    "name": "Hidden/Environment/Cloud",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/107-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "108",
+    "name": "Hidden/Environment/Planet",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "4",
+        "keywords": [
+          "",
+          "",
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000UnityPerDraw\udca0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000X\f\u0000\u0000#ifdef VERTEX\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1\n#if HLSLCC_ENABLE",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "file": "SceneShaderReferences/108-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/108-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "109",
+    "name": "Hidden/Dot",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/109-9-1.glsl"
+      }
+    ]
+  },
+  {
+    "path_id": "110",
+    "name": "CarRP/Unlit/Floor",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 0,
+        "type": "4",
+        "keywords": [
+          "",
+          "",
+          "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000e\u0000\u0000\u0000UnityPerCamera\u0000\u0000\udcc0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000UnityPerMaterial\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\udcbau\n\f",
+          "\u0000\u0000\u0000\u0000",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "file": "SceneShaderReferences/110-9-0.glsl"
+      },
+      {
+        "platform": 9,
+        "index": 1,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/110-9-1.glsl"
+      }
+    ]
+  }
+]

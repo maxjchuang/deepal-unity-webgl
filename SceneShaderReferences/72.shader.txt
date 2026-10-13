@@ -1,0 +1,26 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/BG_Blank" {
+Properties {
+
+radius ("Radius", Float) = 30.0
+
+height ("Height", Float) = 30.0
+
+ratio ("ratio", Range(0, 1)) = 1.0
+
+_Color ("Color", Color) = (1,1,1,1)
+
+}
+SubShader {
+ Tags { "IsEmissive" = "true" "QUEUE" = "Geometry-10" "RenderType" = "Opaque" }
+ Pass {
+  Tags { "IsEmissive" = "true" "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Geometry-10" "RenderType" = "Opaque" }
+ ZWrite Off
+  GpuProgramID 50130
+}
+}
+}

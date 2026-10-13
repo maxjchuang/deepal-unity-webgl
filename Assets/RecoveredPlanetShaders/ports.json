@@ -1,0 +1,28 @@
+{
+  "ports": [
+    {
+      "originalShader": "Hidden/ShootingStar",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/ShootingStar/Variant1",
+      "sourceProgram": "SceneShaderReferences/84-9-1.glsl",
+      "sha256": "b0daae3834a094f947438e01aa2668fc97a3c17b88e3275fcd5f15e4dfe5ca48",
+      "generatedShader": "Assets/RecoveredPlanetShaders/Hidden_ShootingStar_1.shader"
+    },
+    {
+      "originalShader": "Hidden/Star",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/Star/Variant1",
+      "sourceProgram": "SceneShaderReferences/85-9-1.glsl",
+      "sha256": "ef4d2c96cecb3f745dc003e4d0994bc5887a11f5ecd61f013ff46518ec20cc0f",
+      "generatedShader": "Assets/RecoveredPlanetShaders/Hidden_Star_1.shader"
+    },
+    {
+      "originalShader": "Hidden/Environment/Planet",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/Environment/Planet/Variant1",
+      "sourceProgram": "SceneShaderReferences/108-9-1.glsl",
+      "sha256": "6af4f51826542ace4dc68c6a5fb900546398d18e98c6560a4b1845f92f4579cc",
+      "generatedShader": "Assets/RecoveredPlanetShaders/Hidden_Environment_Planet_1.shader"
+    }
+  ]
+}

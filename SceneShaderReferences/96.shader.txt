@@ -1,0 +1,24 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/Highlight" {
+Properties {
+
+_Color ("Color", Color) = (1,1,1,1)
+
+}
+SubShader {
+ Pass {
+ ZTest Off
+ ZWrite Off
+  GpuProgramID 36314
+}
+ Pass {
+ ZTest Off
+ ZWrite Off
+  GpuProgramID 101268
+}
+}
+}

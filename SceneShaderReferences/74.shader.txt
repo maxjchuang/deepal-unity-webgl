@@ -1,0 +1,18 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/SkyGradient" {
+Properties {
+
+_MainTex ("Texture", 2D) = "white" { }
+
+}
+SubShader {
+ Pass {
+  Tags { "LIGHTMODE" = "FORWARDBASE" }
+  GpuProgramID 10577
+}
+}
+}

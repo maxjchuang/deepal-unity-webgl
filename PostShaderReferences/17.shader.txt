@@ -1,0 +1,21 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/FillCache" {
+Properties {
+
+_BaseTex ("Texture", 2D) = "white" { }
+
+_MainTex ("Texture", 2D) = "white" { }
+
+}
+SubShader {
+ Pass {
+  Tags { "LIGHTMODE" = "FORWARDBASE" }
+ ZWrite Off
+  GpuProgramID 50562
+}
+}
+}

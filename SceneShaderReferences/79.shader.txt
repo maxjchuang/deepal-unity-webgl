@@ -1,0 +1,24 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/BG_CarCenter" {
+Properties {
+
+radius ("Radius", Float) = 30.0
+
+height ("Height", Float) = 30.0
+
+ratio ("ratio", Range(0, 1)) = 1.0
+
+}
+SubShader {
+ Tags { "IsEmissive" = "true" "QUEUE" = "Geometry+2" "RenderType" = "Opaque" }
+ Pass {
+  Tags { "IsEmissive" = "true" "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Geometry+2" "RenderType" = "Opaque" }
+ ZWrite Off
+  GpuProgramID 16289
+}
+}
+}

@@ -1,0 +1,71 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "CarRP/Lit/FloorDark" {
+Properties {
+
+[Enum(UnityEngine.Rendering.CullMode)] _Cull ("Cull", Float) = 2.0
+
+[Enum(UnityEngine.Rendering.BlendMode)] _BlendSrc ("BlendSrc", Float) = 5.0
+
+[Enum(UnityEngine.Rendering.BlendMode)] _BlendDst ("BlendDst", Float) = 10.0
+
+[Enum(UnityEngine.Rendering.CompareFunction)] _ZTest ("ZTest", Float) = 4.0
+
+_GSAA_Intensity ("GSAA Intensity", Range(1, 10)) = 1.0
+
+_ReflMapCustom ("Texture", Cube) = "black" { }
+
+_BaseColor ("Base Color", Color) = (0.5,0.5,0.5,1)
+
+_BaseMap ("Texture", 2D) = "white" { }
+
+_FresnelColor ("Color", Color) = (0,0,0,1)
+
+_FresnelColorBlend ("Blend", Vector) = (1,0,0.5,0)
+
+_BumpMap ("Texture", 2D) = "bump" { }
+
+_BumpScale ("Scale", Range(0, 2)) = 1.0
+
+_Metallic ("Metallic", Range(0, 1)) = 0.0
+
+_Smoothness ("Roughness", Range(0.01, 1)) = 0.0
+
+_SpecColor ("Specular Color", Color) = (0.5,0.5,0.5,1)
+
+_FlakesScale ("Flakes Scale", Range(1, 20)) = 10.0
+
+_FlakesIntensity ("Flakes Intensity", Range(0, 1)) = 0.5
+
+_FlakesColor ("Flakes Color", Color) = (1,1,1,1)
+
+_ClearCoatColor ("Color", Color) = (1,1,1,1)
+
+_ClearCoatParam ("Param", Vector) = (0,1,45,44)
+
+_ClearCoatBlend ("Blend", Vector) = (1,0,0.5,0)
+
+_EmissionColor ("Color", Color) = (0,0,0,0)
+
+_AOColor ("Color", Color) = (0,0,0,0)
+
+_AOPower ("Power", Range(0, 1)) = 0.0
+
+}
+SubShader {
+ LOD 200
+ Tags { "IsEmissive" = "true" "QUEUE" = "Geometry-10" "RenderType" = "Opaque" }
+ Pass {
+  LOD 200
+  Tags { "IsEmissive" = "true" "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Geometry-10" "RenderType" = "Opaque" }
+ ZTest Off
+ ZWrite Off
+ Cull Off
+  GpuProgramID 46588
+}
+}
+CustomEditor "CarRPLitShaderGUI"
+}

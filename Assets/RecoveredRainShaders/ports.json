@@ -1,0 +1,44 @@
+{
+  "ports": [
+    {
+      "originalShader": "Hidden/RainRingUpdate",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/RainRingUpdate/Variant1",
+      "sourceProgram": "SceneShaderReferences/76-9-1.glsl",
+      "sha256": "9ce31172bca01ec6df0b1dcbb31aa8edbdaa602d4055476fdbe7a4405aa45641",
+      "generatedShader": "Assets/RecoveredRainShaders/Hidden_RainRingUpdate_1.shader"
+    },
+    {
+      "originalShader": "Hidden/RainDrop",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/RainDrop/Variant1",
+      "sourceProgram": "SceneShaderReferences/94-9-1.glsl",
+      "sha256": "b08933bf827aca2676eea526ef0b80422e916d7079bb862e986cd08adad9eb24",
+      "generatedShader": "Assets/RecoveredRainShaders/Hidden_RainDrop_1.shader"
+    },
+    {
+      "originalShader": "Hidden/RainRing",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/RainRing/Variant1",
+      "sourceProgram": "SceneShaderReferences/100-9-1.glsl",
+      "sha256": "823f7c9948f476046f9c9f7e42dcb8c9af3960066daf1ebe38f86325c49982f7",
+      "generatedShader": "Assets/RecoveredRainShaders/Hidden_RainRing_1.shader"
+    },
+    {
+      "originalShader": "Hidden/RainDropCompute",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/RainDropCompute/Variant1",
+      "sourceProgram": "SceneShaderReferences/103-9-1.glsl",
+      "sha256": "3883faeca4920f0f3caae1085287ad4866785c7930613f2456cf107b92708284",
+      "generatedShader": "Assets/RecoveredRainShaders/Hidden_RainDropCompute_1.shader"
+    },
+    {
+      "originalShader": "Hidden/RainDropCompute",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/RainDropCompute/Variant3",
+      "sourceProgram": "SceneShaderReferences/103-9-3.glsl",
+      "sha256": "993cac7dd17a918bc05793cf9881e969ab9f99ee855c94b83c72f17d9cbc5325",
+      "generatedShader": "Assets/RecoveredRainShaders/Hidden_RainDropCompute_3.shader"
+    }
+  ]
+}

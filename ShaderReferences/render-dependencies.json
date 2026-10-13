@@ -1,0 +1,108 @@
+[
+  {
+    "shader": "CarRP/Unlit/KnobLight",
+    "gpu_program_count": 2,
+    "uniform_blocks": [
+      "UnityPerCamera",
+      "UnityPerDraw",
+      "UnityPerMaterial"
+    ],
+    "textures": [
+      "_MainTex"
+    ],
+    "decode_errors": []
+  },
+  {
+    "shader": "CarRP/Unlit/DepthOnlyRefection",
+    "gpu_program_count": 2,
+    "uniform_blocks": [
+      "UnityPerCamera",
+      "UnityPerDraw",
+      "UnityPerMaterial"
+    ],
+    "textures": [],
+    "decode_errors": []
+  },
+  {
+    "shader": "CarRP/Lit/Transparent",
+    "gpu_program_count": 2,
+    "uniform_blocks": [
+      "UnityPerCamera",
+      "UnityPerDraw",
+      "UnityPerMaterial"
+    ],
+    "textures": [
+      "_BaseMap",
+      "_LUT",
+      "_ReflMapDefault"
+    ],
+    "decode_errors": []
+  },
+  {
+    "shader": "CarRP/Lit/OpaqueWheelFX",
+    "gpu_program_count": 2,
+    "uniform_blocks": [
+      "UnityPerCamera",
+      "UnityPerDraw",
+      "UnityPerMaterial"
+    ],
+    "textures": [
+      "_BumpMapCustom",
+      "_LUT",
+      "_ReflMapDefault"
+    ],
+    "decode_errors": []
+  },
+  {
+    "shader": "CarRP/Lit/Opaque",
+    "gpu_program_count": 8,
+    "uniform_blocks": [
+      "UnityPerCamera",
+      "UnityPerDraw",
+      "UnityPerMaterial"
+    ],
+    "textures": [
+      "_BaseMap",
+      "_BumpMap",
+      "_LUT",
+      "_ReflMapDefault"
+    ],
+    "decode_errors": []
+  },
+  {
+    "shader": "CarRP/Hidden/Collision",
+    "gpu_program_count": 2,
+    "uniform_blocks": [
+      "UnityPerCamera",
+      "UnityPerDraw",
+      "UnityPerMaterial"
+    ],
+    "textures": [],
+    "decode_errors": []
+  },
+  {
+    "shader": "CarRP/Unlit/Mirror",
+    "gpu_program_count": 0,
+    "uniform_blocks": [],
+    "textures": [],
+    "decode_errors": [
+      {
+        "platform": 9,
+        "error": "unpack_from requires a buffer of at least 7020 bytes for unpacking 4 bytes at offset 7016 (actual buffer size is 7016)"
+      }
+    ]
+  },
+  {
+    "shader": "CarRP/Unlit/Shadow",
+    "gpu_program_count": 2,
+    "uniform_blocks": [
+      "UnityPerCamera",
+      "UnityPerDraw",
+      "UnityPerMaterial"
+    ],
+    "textures": [
+      "_MainTex"
+    ],
+    "decode_errors": []
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "ports": [
+    {
+      "originalShader": "Hidden/FX/FXAA",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/FX/FXAA/Variant2",
+      "sourceProgram": "PostShaderReferences/12-9-2.glsl",
+      "sha256": "fc19ecff1505e8ac5dda32362c9a131a26593d704235a2b63f6f70dae96dd4fc",
+      "generatedShader": "Assets/RecoveredFXAAShaders/Hidden_FX_FXAA_2.shader"
+    },
+    {
+      "originalShader": "Hidden/FX/FXAA",
+      "keywords": [
+        "FAST_MODE"
+      ],
+      "shaderName": "Recovered/Hidden/FX/FXAA/Variant3",
+      "sourceProgram": "PostShaderReferences/12-9-3.glsl",
+      "sha256": "6878724b745f1637ba4c61dd033beea72fdcbaccdf293ab3573ad2047a14322f",
+      "generatedShader": "Assets/RecoveredFXAAShaders/Hidden_FX_FXAA_3.shader"
+    }
+  ]
+}

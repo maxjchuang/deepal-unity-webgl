@@ -1,0 +1,36 @@
+{
+  "ports": [
+    {
+      "originalShader": "Hidden/FX/ColorGradingHDR",
+      "keywords": [
+        "TONEMAPPING_ACES"
+      ],
+      "shaderName": "Recovered/Hidden/FX/ColorGradingHDR/Variant1",
+      "sourceProgram": "PostShaderReferences/13-9-1.glsl",
+      "sha256": "87bd451b9b9aae9c2d4548b2a840e3f4b81d05cecdb9437b081b91f2233d9880",
+      "generatedShader": "Assets/RecoveredPostShaders/Hidden_FX_ColorGradingHDR_1.shader"
+    },
+    {
+      "originalShader": "Hidden/FX/Uber",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/FX/Uber/Variant2",
+      "sourceProgram": "PostShaderReferences/14-9-2.glsl",
+      "sha256": "589f4920b71c81708057e2939ecc770bccd853cc86f51b92eeef6b4edc7f9f01",
+      "generatedShader": "Assets/RecoveredPostShaders/Hidden_FX_Uber_2.shader"
+    },
+    {
+      "originalShader": "Hidden/FX/Uber",
+      "keywords": [
+        "ALPHA_AS_LUMA",
+        "BLOOM_LOW",
+        "CHROMATIC_ABERRATION_LOW",
+        "COLOR_GRADING_HDR",
+        "USE_RGBM"
+      ],
+      "shaderName": "Recovered/Hidden/FX/Uber/Variant3",
+      "sourceProgram": "PostShaderReferences/14-9-3.glsl",
+      "sha256": "f0674e7409749dd6d09fc771bee1434592cd7bc0e87fb1037685ef04f85210af",
+      "generatedShader": "Assets/RecoveredPostShaders/Hidden_FX_Uber_3.shader"
+    }
+  ]
+}

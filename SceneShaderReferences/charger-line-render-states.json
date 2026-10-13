@@ -1,0 +1,1 @@
+{"98": {"culling": {"name": "_Cull", "value": 0.0}, "zWrite": {"name": "<noninit>", "value": 0.0}, "zTest": {"name": "_ZTest", "value": 0.0}, "srcBlend": {"name": "_BlendSrc", "value": 0.0}, "destBlend": {"name": "_BlendDst", "value": 0.0}, "srcBlendAlpha": {"name": "<noninit>", "value": 1.0}, "destBlendAlpha": {"name": "<noninit>", "value": 1.0}}}

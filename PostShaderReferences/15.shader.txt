@@ -1,0 +1,36 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/FX/Bloom" {
+Properties {
+
+}
+SubShader {
+ Pass {
+ Name "Prefilter"
+ ZTest Off
+ ZWrite Off
+  GpuProgramID 50657
+}
+ Pass {
+ Name "Downsampler With FlickerFilter"
+ ZTest Off
+ ZWrite Off
+  GpuProgramID 121290
+}
+ Pass {
+ Name "Downsampler"
+ ZTest Off
+ ZWrite Off
+  GpuProgramID 151005
+}
+ Pass {
+ Name "Upsampler"
+ ZTest Off
+ ZWrite Off
+  GpuProgramID 213143
+}
+}
+}

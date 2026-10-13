@@ -1,0 +1,27 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "CarRP/Unlit/KnobLight" {
+Properties {
+
+_MainTex ("Texture", 2D) = "white" { }
+
+_Color ("Color", Color) = (1,1,1,1)
+
+ratio ("Ratio", Range(0, 1)) = 1.0
+
+[Enum(UnityEngine.Rendering.CullMode)] _Cull ("Cull", Float) = 2.0
+
+}
+SubShader {
+ Tags { "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+ Pass {
+  Tags { "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+ ZWrite Off
+ Cull Off
+  GpuProgramID 19270
+}
+}
+}

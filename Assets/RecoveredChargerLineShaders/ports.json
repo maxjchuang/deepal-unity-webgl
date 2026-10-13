@@ -1,0 +1,23 @@
+{
+  "ports": [
+    {
+      "originalShader": "CarRP/Lit/TransparentChargerLine",
+      "keywords": [],
+      "shaderName": "Recovered/CarRP/Lit/TransparentChargerLine/Variant2",
+      "sourceProgram": "SceneShaderReferences/98-9-2.glsl",
+      "sha256": "5199018c22b321202c62204bfd0cd75d542d983121abf71a7fc7a3f29365445f",
+      "generatedShader": "Assets/RecoveredChargerLineShaders/CarRP_Lit_TransparentChargerLine_2.shader"
+    },
+    {
+      "originalShader": "CarRP/Lit/TransparentChargerLine",
+      "keywords": [
+        "AO",
+        "IBL"
+      ],
+      "shaderName": "Recovered/CarRP/Lit/TransparentChargerLine/Variant3",
+      "sourceProgram": "SceneShaderReferences/98-9-3.glsl",
+      "sha256": "a170592459dec4884b35262b74c4f887907d94662d3001e2be8fa443780d4b83",
+      "generatedShader": "Assets/RecoveredChargerLineShaders/CarRP_Lit_TransparentChargerLine_3.shader"
+    }
+  ]
+}

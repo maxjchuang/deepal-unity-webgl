@@ -1,0 +1,22 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/Dot" {
+Properties {
+
+_Color ("Color", Color) = (1,1,1,1)
+
+_Size ("Size", Float) = 1.0
+
+}
+SubShader {
+ Tags { "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+ Pass {
+  Tags { "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+ ZWrite Off
+  GpuProgramID 34888
+}
+}
+}

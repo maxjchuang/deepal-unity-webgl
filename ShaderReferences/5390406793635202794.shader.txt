@@ -1,0 +1,28 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "CarRP/Unlit/Shadow" {
+Properties {
+
+_Color ("_Color", Color) = (1,1,1,1)
+
+_MainTex ("Texture", 2D) = "white" { }
+
+_Pow ("Pow", Float) = 1.5
+
+_Scale ("Scale", Float) = 1.0
+
+}
+SubShader {
+ LOD 100
+ Tags { "IGNOREPROJECTOR" = "true" "QUEUE" = "Transparent-1" "RenderType" = "CarShadow" }
+ Pass {
+  LOD 100
+  Tags { "IGNOREPROJECTOR" = "true" "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Transparent-1" "RenderType" = "CarShadow" }
+ ZWrite Off
+  GpuProgramID 58014
+}
+}
+}

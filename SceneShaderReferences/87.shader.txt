@@ -1,0 +1,34 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/BG_Charge" {
+Properties {
+
+radius ("Radius", Float) = 30.0
+
+value ("value", Range(0, 1)) = 0.0
+
+height ("Height", Float) = 30.0
+
+ratio ("ratio", Range(0, 1)) = 1.0
+
+_MainTex ("BG", 2D) = "white" { }
+
+texDots ("Dots", 2D) = "black" { }
+
+_Color ("Color", Color) = (1,1,1,1)
+
+_ColorBackLight ("ColorBackLight", Color) = (1,1,1,1)
+
+}
+SubShader {
+ Tags { "IsEmissive" = "true" "QUEUE" = "Geometry-10" "RenderType" = "Opaque" }
+ Pass {
+  Tags { "IsEmissive" = "true" "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Geometry-10" "RenderType" = "Opaque" }
+ ZWrite Off
+  GpuProgramID 52935
+}
+}
+}

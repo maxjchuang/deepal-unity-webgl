@@ -1,0 +1,12 @@
+{
+  "ports": [
+    {
+      "originalShader": "CarRP/Hidden/Collision",
+      "keywords": [],
+      "shaderName": "Recovered/CarRP/Hidden/Collision/Variant1",
+      "sourceProgram": "ShaderReferences/4489689049854936422-9-1.glsl",
+      "sha256": "f1871191eedb4f797864d9821455d7173d32672280871b2b8d7c2a62efdc2c16",
+      "generatedShader": "Assets/RecoveredCollisionCommonShaders/CarRP_Hidden_Collision_1.shader"
+    }
+  ]
+}

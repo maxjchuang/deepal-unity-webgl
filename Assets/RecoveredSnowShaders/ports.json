@@ -1,0 +1,28 @@
+{
+  "ports": [
+    {
+      "originalShader": "Hidden/Snow",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/Snow/Variant1",
+      "sourceProgram": "SceneShaderReferences/88-9-1.glsl",
+      "sha256": "4151f63c7319b2f0c9f8a8de2aa32361415fab8c812eac393c4d063bebbd8e90",
+      "generatedShader": "Assets/RecoveredSnowShaders/Hidden_Snow_1.shader"
+    },
+    {
+      "originalShader": "Hidden/SnowCompute",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/SnowCompute/Variant1",
+      "sourceProgram": "SceneShaderReferences/97-9-1-recovered.glsl",
+      "sha256": "3883faeca4920f0f3caae1085287ad4866785c7930613f2456cf107b92708284",
+      "generatedShader": "Assets/RecoveredSnowShaders/Hidden_SnowCompute_1.shader"
+    },
+    {
+      "originalShader": "Hidden/SnowCompute",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/SnowCompute/Variant3",
+      "sourceProgram": "SceneShaderReferences/97-9-3-recovered.glsl",
+      "sha256": "cd526a273b607c2d8c47d0b583002cdeb348b3a3c1b1392a4912ce46a5e49c93",
+      "generatedShader": "Assets/RecoveredSnowShaders/Hidden_SnowCompute_3.shader"
+    }
+  ]
+}

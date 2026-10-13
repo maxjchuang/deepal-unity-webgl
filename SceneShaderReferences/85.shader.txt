@@ -1,0 +1,31 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/Star" {
+Properties {
+
+radius ("Radius", Float) = 30.0
+
+_Color ("_Color", Color) = (1,1,1,1)
+
+_Size0 ("Size", Float) = 1.0
+
+_Size1 ("Size", Float) = 1.0
+
+ratio ("ratio", Range(0, 1)) = 1.0
+
+}
+SubShader {
+ LOD 100
+ Tags { "QUEUE" = "Transparent-4" "RenderType" = "Transparent" }
+ Pass {
+  LOD 100
+  Tags { "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Transparent-4" "RenderType" = "Transparent" }
+ ZWrite Off
+ Cull Off
+  GpuProgramID 15248
+}
+}
+}

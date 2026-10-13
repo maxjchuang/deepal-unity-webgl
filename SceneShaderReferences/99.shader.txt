@@ -1,0 +1,37 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "CarRP/Unlit/AirConditionApp" {
+Properties {
+
+_MainTex ("Texture", 2D) = "white" { }
+
+_ColorBright0 ("Color Bright", Color) = (0,0,1,1)
+
+_ColorBright1 ("Color Bright", Color) = (1,0,0,1)
+
+_ColorDark0 ("Color Dark", Color) = (0,0,1,1)
+
+_ColorDark1 ("Color Dark", Color) = (1,0,0,1)
+
+animSpeed ("AnimSpeed", Float) = 1.0
+
+animShift ("AnimShift", Float) = 0.0
+
+ratio ("ratio", Range(0, 1)) = 0.0
+
+value ("value", Range(-1, 1)) = 0.0
+
+}
+SubShader {
+ Tags { "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+ Pass {
+  Tags { "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+ ZTest Off
+ ZWrite Off
+  GpuProgramID 16093
+}
+}
+}

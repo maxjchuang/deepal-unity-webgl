@@ -1,0 +1,206 @@
+{
+  "ports": [
+    {
+      "originalShader": "CarRP/Unlit/KnobLight",
+      "keywords": [],
+      "shaderName": "Recovered/CarRP/Unlit/KnobLight/Variant1",
+      "sourceProgram": "ShaderReferences/-4593808799478312577-9-1.glsl",
+      "sha256": "58fc3e3abf053a33809d13751df6663605d81e4b0c330a044f1ca5dac38b4dd2",
+      "generatedShader": "Assets/RecoveredShaders/CarRP_Unlit_KnobLight_1.shader"
+    },
+    {
+      "originalShader": "CarRP/Lit/Transparent",
+      "keywords": [
+        "BASE_MAP"
+      ],
+      "shaderName": "Recovered/CarRP/Lit/Transparent/Variant2",
+      "sourceProgram": "ShaderReferences/-1566999676307451746-9-2.glsl",
+      "sha256": "dffb85d00db5d89a3adf63f5a429f16bca8c7361430f54ab9ae1b0c6e0a95d28",
+      "generatedShader": "Assets/RecoveredShaders/CarRP_Lit_Transparent_2.shader"
+    },
+    {
+      "originalShader": "CarRP/Lit/Transparent",
+      "keywords": [
+        "AO",
+        "BENT_NORMAL",
+        "CLEAR_COAT",
+        "EMISSION",
+        "FRENSNEL_COLOR",
+        "IBL"
+      ],
+      "shaderName": "Recovered/CarRP/Lit/Transparent/Variant3",
+      "sourceProgram": "ShaderReferences/-1566999676307451746-9-3.glsl",
+      "sha256": "cc9704e525849780675e084c3515dd17cabbb66ed6cbe63f19e227d87588f7ed",
+      "generatedShader": "Assets/RecoveredShaders/CarRP_Lit_Transparent_3.shader"
+    },
+    {
+      "originalShader": "CarRP/Lit/OpaqueWheelFX",
+      "keywords": [
+        "AO",
+        "BENT_NORMAL",
+        "BUMP_MAP",
+        "EMISSION",
+        "IBL",
+        "SPECULAR_HIGHLIGHTS"
+      ],
+      "shaderName": "Recovered/CarRP/Lit/OpaqueWheelFX/Variant1",
+      "sourceProgram": "ShaderReferences/2603354566935345476-9-1.glsl",
+      "sha256": "114de4b300543e12a5c27eca9bf63b0fdf3b2fa3b02343f7b4f2e52bc27cf2ab",
+      "generatedShader": "Assets/RecoveredShaders/CarRP_Lit_OpaqueWheelFX_1.shader"
+    },
+    {
+      "originalShader": "CarRP/Lit/Opaque",
+      "keywords": [
+        "AO",
+        "BASE_MAP",
+        "BENT_NORMAL",
+        "IBL"
+      ],
+      "shaderName": "Recovered/CarRP/Lit/Opaque/Variant8",
+      "sourceProgram": "ShaderReferences/2702640710480308407-9-8.glsl",
+      "sha256": "6e6f0e1b6f2a2ad3d762cf4279a379c3e0652f28572be7f40babd435e01c99ad",
+      "generatedShader": "Assets/RecoveredShaders/CarRP_Lit_Opaque_8.shader"
+    },
+    {
+      "originalShader": "CarRP/Lit/Opaque",
+      "keywords": [
+        "AO",
+        "BENT_NORMAL",
+        "EMISSION",
+        "IBL"
+      ],
+      "shaderName": "Recovered/CarRP/Lit/Opaque/Variant9",
+      "sourceProgram": "ShaderReferences/2702640710480308407-9-9.glsl",
+      "sha256": "8d51a91642e978a04d7c5e8b23a11a47726f2313beecef281c2d5f84247507b0",
+      "generatedShader": "Assets/RecoveredShaders/CarRP_Lit_Opaque_9.shader"
+    },
+    {
+      "originalShader": "CarRP/Lit/Opaque",
+      "keywords": [
+        "AO",
+        "BENT_NORMAL",
+        "BUMP_MAP",
+        "EMISSION",
+        "IBL"
+      ],
+      "shaderName": "Recovered/CarRP/Lit/Opaque/Variant10",
+      "sourceProgram": "ShaderReferences/2702640710480308407-9-10.glsl",
+      "sha256": "0c2d8f6017321f088a9068e5b9d9bd679a02de4ed91290056ee02d06a3e1b532",
+      "generatedShader": "Assets/RecoveredShaders/CarRP_Lit_Opaque_10.shader"
+    },
+    {
+      "originalShader": "CarRP/Lit/Opaque",
+      "keywords": [
+        "AO",
+        "BENT_NORMAL",
+        "EMISSION",
+        "FRENSNEL_COLOR",
+        "IBL"
+      ],
+      "shaderName": "Recovered/CarRP/Lit/Opaque/Variant11",
+      "sourceProgram": "ShaderReferences/2702640710480308407-9-11.glsl",
+      "sha256": "cedb02d8a80613573c2e95eb305a8022c75b28a20402207cc5964fe2a63bda9a",
+      "generatedShader": "Assets/RecoveredShaders/CarRP_Lit_Opaque_11.shader"
+    },
+    {
+      "originalShader": "CarRP/Lit/Opaque",
+      "keywords": [
+        "AO",
+        "BENT_NORMAL",
+        "EMISSION",
+        "FRENSNEL_COLOR",
+        "IBL",
+        "SPECULAR_HIGHLIGHTS"
+      ],
+      "shaderName": "Recovered/CarRP/Lit/Opaque/Variant12",
+      "sourceProgram": "ShaderReferences/2702640710480308407-9-12.glsl",
+      "sha256": "56e41af076be7d161f9981018183ac544d6382abe069e6fc79d8087b2394279e",
+      "generatedShader": "Assets/RecoveredShaders/CarRP_Lit_Opaque_12.shader"
+    },
+    {
+      "originalShader": "CarRP/Lit/Opaque",
+      "keywords": [
+        "AO",
+        "BENT_NORMAL",
+        "BUMP_MAP",
+        "EMISSION",
+        "FRENSNEL_COLOR",
+        "IBL",
+        "SPECULAR_HIGHLIGHTS"
+      ],
+      "shaderName": "Recovered/CarRP/Lit/Opaque/Variant13",
+      "sourceProgram": "ShaderReferences/2702640710480308407-9-13.glsl",
+      "sha256": "c309dbaacf4f91b95b8781f91431826ed21fec7b308c71d8f8111232f3a573b9",
+      "generatedShader": "Assets/RecoveredShaders/CarRP_Lit_Opaque_13.shader"
+    },
+    {
+      "originalShader": "CarRP/Lit/Opaque",
+      "keywords": [
+        "AO",
+        "BASE_MAP",
+        "BENT_NORMAL",
+        "BUMP_MAP",
+        "EMISSION",
+        "FRENSNEL_COLOR",
+        "IBL",
+        "SPECULAR_HIGHLIGHTS"
+      ],
+      "shaderName": "Recovered/CarRP/Lit/Opaque/Variant14",
+      "sourceProgram": "ShaderReferences/2702640710480308407-9-14.glsl",
+      "sha256": "b0ce3a1a159b515cbb4d0bb3e5b666aab7cc871f74ea4a6187bc7caf7926cfab",
+      "generatedShader": "Assets/RecoveredShaders/CarRP_Lit_Opaque_14.shader"
+    },
+    {
+      "originalShader": "CarRP/Lit/Opaque",
+      "keywords": [
+        "AO",
+        "BENT_NORMAL",
+        "CLEAR_COAT",
+        "CLEAR_COAT_HIGHLIGHTS",
+        "EMISSION",
+        "FRENSNEL_COLOR",
+        "GSAA",
+        "IBL",
+        "SPECULAR_HIGHLIGHTS"
+      ],
+      "shaderName": "Recovered/CarRP/Lit/Opaque/Variant15",
+      "sourceProgram": "ShaderReferences/2702640710480308407-9-15.glsl",
+      "sha256": "347fddff2abd111233bac0d248e294c003164057999be54631224c21c1e3647c",
+      "generatedShader": "Assets/RecoveredShaders/CarRP_Lit_Opaque_15.shader"
+    },
+    {
+      "originalShader": "CarRP/Unlit/Shadow",
+      "keywords": [],
+      "shaderName": "Recovered/CarRP/Unlit/Shadow/Variant1",
+      "sourceProgram": "ShaderReferences/5390406793635202794-9-1.glsl",
+      "sha256": "b9daec3d3cd35c18abb6d642ca9aab98547d2bd7cb42741df56dcb52883ea807",
+      "generatedShader": "Assets/RecoveredShaders/CarRP_Unlit_Shadow_1.shader"
+    },
+    {
+      "originalShader": "CarRP/Lit/OpaqueFlashGradient",
+      "keywords": [
+        "AO",
+        "BENT_NORMAL",
+        "EMISSION",
+        "IBL"
+      ],
+      "shaderName": "Recovered/CarRP/Lit/OpaqueFlashGradient/Variant3",
+      "sourceProgram": "ShaderReferences/5973607443662012910-9-3.glsl",
+      "sha256": "662c8070d18390d5610287c2a6d7d590c86e1f4b766a3472f3e49ee8818d33e6",
+      "generatedShader": "Assets/RecoveredShaders/CarRP_Lit_OpaqueFlashGradient_3.shader"
+    },
+    {
+      "originalShader": "CarRP/Lit/OpaqueLampG318",
+      "keywords": [
+        "AO",
+        "BENT_NORMAL",
+        "EMISSION",
+        "IBL"
+      ],
+      "shaderName": "Recovered/CarRP/Lit/OpaqueLampG318/Variant3",
+      "sourceProgram": "ShaderReferences/9030704034240786408-9-3.glsl",
+      "sha256": "76645f7a2d210497f46f44d9b432fdc224569178b09c94fcd95e9b245f7b02de",
+      "generatedShader": "Assets/RecoveredShaders/CarRP_Lit_OpaqueLampG318_3.shader"
+    }
+  ]
+}

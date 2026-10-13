@@ -1,0 +1,22 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "CarRP/Hidden/Collision" {
+Properties {
+
+[Toggle] fixMirror ("FixMirror", Float) = 0.0
+
+[Enum(UnityEngine.Rendering.CullMode)] _Cull ("Cull", Float) = 2.0
+
+}
+SubShader {
+ Tags { "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+ Pass {
+  Tags { "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+ Cull Off
+  GpuProgramID 45021
+}
+}
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "path_id": "80",
+    "name": "Hidden/Cubemap",
+    "platforms": [
+      9
+    ],
+    "programs": [
+      {
+        "platform": 9,
+        "index": 8,
+        "type": "4",
+        "keywords": [],
+        "file": "SceneShaderReferences/80-9-8.glsl"
+      }
+    ]
+  }
+]

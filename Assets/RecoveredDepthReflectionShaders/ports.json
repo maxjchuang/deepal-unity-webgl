@@ -1,0 +1,12 @@
+{
+  "ports": [
+    {
+      "originalShader": "CarRP/Unlit/DepthOnlyRefection",
+      "keywords": [],
+      "shaderName": "Recovered/CarRP/Unlit/DepthOnlyRefection/Variant1",
+      "sourceProgram": "ShaderReferences/-3528401622709176661-9-1.glsl",
+      "sha256": "bdcf31510cbcc248f2920d676e7f22ce622a562cee3f0cc7d61bbfacc160d455",
+      "generatedShader": "Assets/RecoveredDepthReflectionShaders/CarRP_Unlit_DepthOnlyRefection_1.shader"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/AmbientScent" {
+Properties {
+
+_Color ("_Color", Color) = (1,1,1,1)
+
+_Size ("Size", Float) = 1.0
+
+ratio ("ratio", Range(0, 1)) = 1.0
+
+value ("value", Range(0, 1)) = 1.0
+
+}
+SubShader {
+ LOD 100
+ Tags { "QUEUE" = "Transparent-4" "RenderType" = "Transparent" }
+ Pass {
+  LOD 100
+  Tags { "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Transparent-4" "RenderType" = "Transparent" }
+ ZTest Off
+ ZWrite Off
+ Cull Off
+  GpuProgramID 64920
+}
+}
+}

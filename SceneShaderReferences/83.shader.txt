@@ -1,0 +1,31 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/InteriorUI" {
+Properties {
+
+texSeats ("texSeats", 2D) = "white" { }
+
+texMask ("texMask", 2D) = "white" { }
+
+ratio ("ratio", Range(0, 1)) = 0.0
+
+color0 ("color0", Color) = (1,1,1,1)
+
+color1 ("color1", Color) = (1,1,1,1)
+
+color2 ("color2", Color) = (1,1,1,1)
+
+}
+SubShader {
+ Tags { "QUEUE" = "Overlay" "RenderType" = "Transparent" }
+ Pass {
+  Tags { "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Overlay" "RenderType" = "Transparent" }
+ ZTest Off
+ ZWrite Off
+  GpuProgramID 49452
+}
+}
+}

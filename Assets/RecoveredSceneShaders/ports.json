@@ -1,0 +1,20 @@
+{
+  "ports": [
+    {
+      "originalShader": "Hidden/Sky",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/Sky/Variant1",
+      "sourceProgram": "SceneShaderReferences/106-9-1.glsl",
+      "sha256": "6b97ed95b7b92b47f65e6361b8eb1b65efb4ac968073dae968ecf7a6779a87cf",
+      "generatedShader": "Assets/RecoveredSceneShaders/Hidden_Sky_1.shader"
+    },
+    {
+      "originalShader": "CarRP/Unlit/Floor",
+      "keywords": [],
+      "shaderName": "Recovered/CarRP/Unlit/Floor/Variant1",
+      "sourceProgram": "SceneShaderReferences/110-9-1.glsl",
+      "sha256": "8355fe301f49cb6696df6464bc5a262316f775f40b5fbd69cb0de767ab7f3910",
+      "generatedShader": "Assets/RecoveredSceneShaders/CarRP_Unlit_Floor_1.shader"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ports": [
+    {
+      "originalShader": "CarRP/Unlit/Mirror",
+      "keywords": [],
+      "shaderName": "Recovered/CarRP/Unlit/Mirror/Variant1",
+      "sourceProgram": "ShaderReferences/5274092061326050342-9-recovered.glsl",
+      "sha256": "6af43c62b6f5ede92348e71c49a9f24a62b5abf1912d30b922e35c19f1b01345",
+      "generatedShader": "Assets/RecoveredMirrorShaders/CarRP_Unlit_Mirror_1.shader"
+    }
+  ]
+}

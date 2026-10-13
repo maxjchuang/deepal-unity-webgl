@@ -1,0 +1,20 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/Sky" {
+Properties {
+
+_MainTex ("Texture", 2D) = "white" { }
+
+}
+SubShader {
+ Tags { "PreviewType" = "Skybox" "QUEUE" = "Geometry+1" }
+ Pass {
+  Tags { "LIGHTMODE" = "FORWARDBASE" "PreviewType" = "Skybox" "QUEUE" = "Geometry+1" }
+ ZWrite Off
+  GpuProgramID 46327
+}
+}
+}

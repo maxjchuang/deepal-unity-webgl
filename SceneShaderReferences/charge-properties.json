@@ -1,0 +1,1 @@
+{"87": "Properties {\n\nradius (\"Radius\", Float) = 30.0\n\nvalue (\"value\", Range(0, 1)) = 0.0\n\nheight (\"Height\", Float) = 30.0\n\nratio (\"ratio\", Range(0, 1)) = 1.0\n\n_MainTex (\"BG\", 2D) = \"white\" { }\n\ntexDots (\"Dots\", 2D) = \"black\" { }\n\n_Color (\"Color\", Color) = (1,1,1,1)\n\n_ColorBackLight (\"ColorBackLight\", Color) = (1,1,1,1)\n\n}"}

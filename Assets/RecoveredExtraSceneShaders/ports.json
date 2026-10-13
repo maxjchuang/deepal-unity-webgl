@@ -1,0 +1,44 @@
+{
+  "ports": [
+    {
+      "originalShader": "Hidden/BG_Blank",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/BG_Blank/Variant1",
+      "sourceProgram": "SceneShaderReferences/72-9-1.glsl",
+      "sha256": "fce00f00cecb2312a8a97bcd6a32201dbff69cbbae29ecec78199e9b72162b3b",
+      "generatedShader": "Assets/RecoveredExtraSceneShaders/Hidden_BG_Blank_1.shader"
+    },
+    {
+      "originalShader": "Hidden/BG_CarCenter",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/BG_CarCenter/Variant1",
+      "sourceProgram": "SceneShaderReferences/79-9-1.glsl",
+      "sha256": "02ca934dad25dddae7995296b77ba3e72b4ebebef7a4e8a7cfd676ac29dc54f8",
+      "generatedShader": "Assets/RecoveredExtraSceneShaders/Hidden_BG_CarCenter_1.shader"
+    },
+    {
+      "originalShader": "Hidden/InteriorUI",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/InteriorUI/Variant1",
+      "sourceProgram": "SceneShaderReferences/83-9-1.glsl",
+      "sha256": "98f63601fe51376fc503136e55f5a6cd072324a01f604ebfcb077779a503c474",
+      "generatedShader": "Assets/RecoveredExtraSceneShaders/Hidden_InteriorUI_1.shader"
+    },
+    {
+      "originalShader": "Hidden/BG_EnergyCenter",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/BG_EnergyCenter/Variant1",
+      "sourceProgram": "SceneShaderReferences/89-9-1.glsl",
+      "sha256": "52a07448d0392ed1413a327fe1b2e0861b505edfe673b62eba0421035d0eebcf",
+      "generatedShader": "Assets/RecoveredExtraSceneShaders/Hidden_BG_EnergyCenter_1.shader"
+    },
+    {
+      "originalShader": "CarRP/Unlit/AirConditionApp",
+      "keywords": [],
+      "shaderName": "Recovered/CarRP/Unlit/AirConditionApp/Variant1",
+      "sourceProgram": "SceneShaderReferences/99-9-1.glsl",
+      "sha256": "3badc380102218c70772c8a0b13255e30b07c34e0e1c187496336b2379e87303",
+      "generatedShader": "Assets/RecoveredExtraSceneShaders/CarRP_Unlit_AirConditionApp_1.shader"
+    }
+  ]
+}

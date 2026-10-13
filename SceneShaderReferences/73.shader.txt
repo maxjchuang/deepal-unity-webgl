@@ -1,0 +1,26 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "CarRP/Unlit/Road" {
+Properties {
+
+_Color ("Color", Color) = (1,1,1,1)
+
+_Alpha ("Alpha", Range(0, 1)) = 1.0
+
+timeDriving ("Time", Float) = 0.0
+
+_MainTex ("Texture", 2D) = "white" { }
+
+}
+SubShader {
+ Tags { "QUEUE" = "Transparent+10" "RenderType" = "Transparent" }
+ Pass {
+  Tags { "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Transparent+10" "RenderType" = "Transparent" }
+ ZWrite Off
+  GpuProgramID 618
+}
+}
+}

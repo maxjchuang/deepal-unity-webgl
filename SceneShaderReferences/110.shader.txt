@@ -1,0 +1,20 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "CarRP/Unlit/Floor" {
+Properties {
+
+_BaseColor ("Base Color", Color) = (0.5,0.5,0.5,1)
+
+}
+SubShader {
+ Tags { "IsEmissive" = "true" "QUEUE" = "Geometry-10" "RenderType" = "Opaque" }
+ Pass {
+  Tags { "IsEmissive" = "true" "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Geometry-10" "RenderType" = "Opaque" }
+ ZWrite Off
+  GpuProgramID 19589
+}
+}
+}

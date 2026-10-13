@@ -1,0 +1,12 @@
+{
+  "ports": [
+    {
+      "originalShader": "Hidden/Cubemap",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/Cubemap/Variant8",
+      "sourceProgram": "SceneShaderReferences/80-9-8.glsl",
+      "sha256": "91da76ffdf9e5190bace4a7a1924cef30b878c931af9c1b97f261e44f045f0f0",
+      "generatedShader": "Assets/RecoveredReflectionShaders/Hidden_Cubemap_8.shader"
+    }
+  ]
+}

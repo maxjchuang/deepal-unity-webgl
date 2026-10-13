@@ -1,0 +1,28 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/RainDrop" {
+Properties {
+
+_Color ("_Color", Color) = (1,1,1,1)
+
+_Size ("Size", Float) = 1.0
+
+_Alpha ("Alpha", Range(0, 1)) = 1.0
+
+_MainTex ("_MainTex", 2D) = "white" { }
+
+}
+SubShader {
+ LOD 100
+ Tags { "QUEUE" = "Transparent+1" "RenderType" = "Transparent" }
+ Pass {
+  LOD 100
+  Tags { "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Transparent+1" "RenderType" = "Transparent" }
+ ZWrite Off
+  GpuProgramID 5252
+}
+}
+}

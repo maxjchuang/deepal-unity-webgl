@@ -1,0 +1,17 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/FX/Sharpen" {
+Properties {
+
+}
+SubShader {
+ Pass {
+ ZTest Off
+ ZWrite Off
+  GpuProgramID 27698
+}
+}
+}

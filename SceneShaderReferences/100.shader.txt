@@ -1,0 +1,26 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/RainRing" {
+Properties {
+
+_Color ("_Color", Color) = (1,1,1,1)
+
+_Size ("Size", Float) = 1.0
+
+_Alpha ("Alpha", Range(0, 1)) = 1.0
+
+}
+SubShader {
+ LOD 100
+ Tags { "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+ Pass {
+  LOD 100
+  Tags { "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+ ZWrite Off
+  GpuProgramID 4420
+}
+}
+}

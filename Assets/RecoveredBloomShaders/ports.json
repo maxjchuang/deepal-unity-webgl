@@ -1,0 +1,47 @@
+{
+  "ports": [
+    {
+      "originalShader": "Hidden/FX/Bloom",
+      "keywords": [
+        "ANTI_FLICKER",
+        "USE_RGBM"
+      ],
+      "shaderName": "Recovered/Hidden/FX/Bloom/Variant2",
+      "sourceProgram": "PostShaderReferences/15-9-2.glsl",
+      "sha256": "87cd91f9f6861ffcfd21548c0f745df299d567d26f1a60c48a93b120cc43df84",
+      "generatedShader": "Assets/RecoveredBloomShaders/Hidden_FX_Bloom_2.shader"
+    },
+    {
+      "originalShader": "Hidden/FX/Bloom",
+      "keywords": [
+        "ANTI_FLICKER",
+        "USE_RGBM"
+      ],
+      "shaderName": "Recovered/Hidden/FX/Bloom/Variant5",
+      "sourceProgram": "PostShaderReferences/15-9-5.glsl",
+      "sha256": "9515c4b8fcee705c69fe460d2334826667b968b5a84b1361f91e956fb4ed901d",
+      "generatedShader": "Assets/RecoveredBloomShaders/Hidden_FX_Bloom_5.shader"
+    },
+    {
+      "originalShader": "Hidden/FX/Bloom",
+      "keywords": [
+        "USE_RGBM"
+      ],
+      "shaderName": "Recovered/Hidden/FX/Bloom/Variant6",
+      "sourceProgram": "PostShaderReferences/15-9-6.glsl",
+      "sha256": "3c3e3b5606fd97b94b9ce126f07559ce60e47a8586e58c07c38f32ac049208e2",
+      "generatedShader": "Assets/RecoveredBloomShaders/Hidden_FX_Bloom_6.shader"
+    },
+    {
+      "originalShader": "Hidden/FX/Bloom",
+      "keywords": [
+        "HIGH_QUALITY",
+        "USE_RGBM"
+      ],
+      "shaderName": "Recovered/Hidden/FX/Bloom/Variant9",
+      "sourceProgram": "PostShaderReferences/15-9-9.glsl",
+      "sha256": "70de593aeacdff49affa7cb15f2140e1f804ed267a7e1fb1735c8c6083c88a90",
+      "generatedShader": "Assets/RecoveredBloomShaders/Hidden_FX_Bloom_9.shader"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/Environment/Planet" {
+Properties {
+
+_MainTex ("Texture", 2D) = "white" { }
+
+ratio ("ratio", Range(0, 1)) = 1.0
+
+}
+SubShader {
+ Tags { "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+ Pass {
+  Tags { "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+ ZWrite Off
+  GpuProgramID 45349
+}
+}
+}

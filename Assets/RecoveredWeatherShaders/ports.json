@@ -1,0 +1,12 @@
+{
+  "ports": [
+    {
+      "originalShader": "Hidden/Environment/Cloud",
+      "keywords": [],
+      "shaderName": "Recovered/Hidden/Environment/Cloud/Variant1",
+      "sourceProgram": "SceneShaderReferences/107-9-1.glsl",
+      "sha256": "41452553fec12605b0e637e9dcd65065a7b9016946afa838055f383fbf1b6a6b",
+      "generatedShader": "Assets/RecoveredWeatherShaders/Hidden_Environment_Cloud_1.shader"
+    }
+  ]
+}

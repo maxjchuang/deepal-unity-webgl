@@ -1,0 +1,31 @@
+{
+  "release": "2026-10-13",
+  "engine": "Unity 2023.1.17f1 WebGL",
+  "status": "release build; functional matrix passed; pixel parity not certified",
+  "models": 23,
+  "vehicleBundles": 23,
+  "environmentBundles": 6,
+  "motionChecks": 207,
+  "motionPassed": 207,
+  "missingShaderVariantMappings": 0,
+  "nativeSixSeatModels": [
+    "s09",
+    "s09_6s"
+  ],
+  "verified": [
+    "all 23 vehicle loads",
+    "all 207 door/window/trunk motion completion callbacks",
+    "light flash 10-second stop and regular-light restoration",
+    "model-specific materials, wheels, extras, charger transforms",
+    "native camera rotation, FOV zoom and damping",
+    "six-seat source renderer and original camera crop",
+    "mobile viewport 390x844 without vehicle clipping"
+  ],
+  "limitations": [
+    "No pixel-by-pixel image certification across all 23 variants and view/weather combinations",
+    "S05 bentPoints/bentFactor CPU mapping remains unverified; source retained without guessed shader globals",
+    "Continuous native time interpolation and complete application lifecycle not exhaustively certified",
+    "L06 C2L tail-spoiler source has null native transforms; web disables that control",
+    "Web controls use responsive layout; original application full screen UI is not pixel-identical"
+  ]
+}

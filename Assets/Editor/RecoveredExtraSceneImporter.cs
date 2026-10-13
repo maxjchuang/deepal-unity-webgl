@@ -1,0 +1,16 @@
+using System;using System.IO;using UnityEngine;using UnityEditor;
+public static class RecoveredExtraSceneImporter {
+ const string Src="Assets/Recovery/ExtraScene/",Dst="Assets/RecoveredS07/Environment/";
+ public static RecoveredSpecialScenes Import(RecoveredTimeControls time){
+  var d=JsonUtility.FromJson<S07RecoveryImporter.MeshData>(File.ReadAllText(Src+"FloorAndSky.json"));var mesh=new Mesh{name=d.name};mesh.vertices=d.vertices;if(d.normals.Length==d.vertices.Length)mesh.normals=d.normals;if(d.uv.Length==d.vertices.Length)mesh.uv=d.uv;mesh.subMeshCount=d.submeshes.Length;for(int i=0;i<d.submeshes.Length;i++)mesh.SetTriangles(d.submeshes[i].indices,i);mesh.RecalculateBounds();Save(mesh,Dst+"ExtraSceneFloorAndSky.asset");
+  var owner=new GameObject("RecoveredSpecialScenes").AddComponent<RecoveredSpecialScenes>();owner.carCenter=Create("SceneCarCenter",mesh,"Hidden/BG_CarCenter",4);owner.energyCenter=Create("SceneEnergyCenter",mesh,"Hidden/BG_EnergyCenter",7);owner.airBackground=Create("SceneAirConditioner",mesh,"Hidden/BG_Blank",3);owner.air=RecoveredAirSceneImporter.Import();owner.sky=GameObject.Find("NativeSky").GetComponent<Renderer>();owner.floor=GameObject.Find("NativeFloor").GetComponent<Renderer>();owner.charge=RecoveredChargeSceneImporter.Import(time.lighting);owner.connectors=RecoveredConnectorImporter.Import();owner.lighting=time.lighting;owner.scene=time.scene;owner.timeControls=time;owner.states=JsonUtility.FromJson<RecoveredTimeControls.Catalog>(File.ReadAllText(Src+"scene-states.json")).states;foreach(var state in owner.states)state.reflection=RecoveredNativeReflection.Import(state);owner.brightSky=time.scene.sky;owner.darkSky=AssetDatabase.LoadAssetAtPath<Texture2D>(Dst+"NativeSkyGradient_Dark.asset");var darkTimes=new System.Collections.Generic.List<RecoveredTimeControls.State>();foreach(var state in time.states){var darkState=JsonUtility.FromJson<RecoveredTimeControls.State>(JsonUtility.ToJson(state));darkState.name=state.name+"_dark";darkState.isDarkTheme=1;darkState.colorBGDefault=new Vector4(.0215f,.0224f,.0281f,1);darkState.colorBGCarCenter=new Vector4(.0301f,.0317f,.0329f,1);darkState.reflection=RecoveredNativeReflection.Import(darkState);darkTimes.Add(darkState);}owner.darkTimes=darkTimes.ToArray();owner.SetView("default");return owner;
+ }
+ static Renderer Create(string name,Mesh mesh,string shaderName,int id){
+  var shader=Shader.Find("Recovered/"+shaderName+"/Variant1");if(shader==null||ShaderUtil.ShaderHasError(shader))throw new InvalidOperationException("Original scene shader failed: "+shaderName);
+  var mat=new Material(shader){name=name};mat.SetFloat("radius",30);mat.SetFloat("height",15);mat.SetFloat("ratio",0);
+  if(id==3)mat.SetColor("_Color",new Color(5.992156982f,5.992156982f,5.992156982f,0));
+  if(id==7){mat.SetColor("_Color0",new Color(1.289000034f,1.539700031f,1.872499943f,1));mat.SetColor("_Color1",new Color(.541999996f,.635299981f,.856000006f,1));}
+  Save(mat,Dst+name+".mat");var go=new GameObject(name);go.AddComponent<MeshFilter>().sharedMesh=mesh;var renderer=go.AddComponent<MeshRenderer>();renderer.sharedMaterial=mat;renderer.enabled=false;return renderer;
+ }
+ static void Save(UnityEngine.Object obj,string path){AssetDatabase.DeleteAsset(path);AssetDatabase.CreateAsset(obj,path);}
+}

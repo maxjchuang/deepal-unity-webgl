@@ -24,3 +24,4 @@ __pycache__/
 .DS_Store
 /Assets/*.meta
 !/Assets/*.cs.meta
+/Assets/Plugins/WebGL.meta

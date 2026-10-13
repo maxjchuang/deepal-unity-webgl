@@ -1,0 +1,346 @@
+{
+  "assets": {
+    "Build/S07DiagnosticWeb.data": {
+      "bytes": 46214110,
+      "sha256": "71c7d579820ab52004eb715588b7ab2c811155137df1e7d65f866f2c67b15b11"
+    },
+    "Build/S07DiagnosticWeb.data.part-000.bin": {
+      "bytes": 4194304,
+      "sha256": "7a8e5d922dc532328e01eef989869b4d8e7871c2836a452b9c1b287854cf3e60"
+    },
+    "Build/S07DiagnosticWeb.data.part-001.bin": {
+      "bytes": 4194304,
+      "sha256": "94be9f04576183512554853a32232b1478761bce01c04b27b958b5c461626cd4"
+    },
+    "Build/S07DiagnosticWeb.data.part-002.bin": {
+      "bytes": 4194304,
+      "sha256": "270c15895906a572eefdba25f20a30a0e2d1b7cbed1cef229e3132cab9becef8"
+    },
+    "Build/S07DiagnosticWeb.data.part-003.bin": {
+      "bytes": 4194304,
+      "sha256": "bb9189cd6ff95c188d8995bf1d449b4923d9353cd0a0810862b7ae3604fea07f"
+    },
+    "Build/S07DiagnosticWeb.data.part-004.bin": {
+      "bytes": 4194304,
+      "sha256": "96c0be6267137a961822623cf5f0c5b037b7e2e4aff94d1a2f77f0764a5fab41"
+    },
+    "Build/S07DiagnosticWeb.data.part-005.bin": {
+      "bytes": 4194304,
+      "sha256": "4931ad6e46d2c4a8c6e804522976b9ffb1e502863ef03bf6dc9628c912be5780"
+    },
+    "Build/S07DiagnosticWeb.data.part-006.bin": {
+      "bytes": 4194304,
+      "sha256": "23dfb5d5df8ec28dfef8ca3bcdbe314035fd1daf329cc0da19a6466bfc567d5d"
+    },
+    "Build/S07DiagnosticWeb.data.part-007.bin": {
+      "bytes": 4194304,
+      "sha256": "fd691bc4f2abaee896549005164c16953daa089e9a16b2ac91176855691fa93a"
+    },
+    "Build/S07DiagnosticWeb.data.part-008.bin": {
+      "bytes": 2465265,
+      "sha256": "bff5f8b9b49882983321e196389800bed52503fd48552477dadac3c4bafdc20c"
+    },
+    "Build/S07DiagnosticWeb.data.parts.json": {
+      "bytes": 354,
+      "sha256": "b3e77321b057da6f1b1df8ad8804a6d877ad48afd4d8d342538e54429e41dd56"
+    },
+    "Build/S07DiagnosticWeb.framework.js": {
+      "bytes": 318011,
+      "sha256": "0031ed267935d57c5684eeed99142ee4ec95717654cb127a5ab84364b3215d56"
+    },
+    "Build/S07DiagnosticWeb.loader.js": {
+      "bytes": 25437,
+      "sha256": "01c3f3f80dbad7c39f65262ae032701971b615a9064b83bb1d594c134d10f84c"
+    },
+    "Build/S07DiagnosticWeb.wasm": {
+      "bytes": 11307705,
+      "sha256": "1499cf40569b6aa5f1ab432955ba51eeef45ed487513e1e58af53637da7e3dad"
+    },
+    "Build/S07DiagnosticWeb.wasm.part-000.bin": {
+      "bytes": 3458217,
+      "sha256": "9f919d44cbc31a83feb136c8c5113271d4081933c7c506c4530009cc0979b41d"
+    },
+    "Build/S07DiagnosticWeb.wasm.parts.json": {
+      "bytes": 50,
+      "sha256": "9ee863eeee39f59c60072252c9726fe253196ddd939eac028bf28fa24219ed40"
+    },
+    "StreamingAssets/VehicleBundles/environment-g318": {
+      "bytes": 21481370,
+      "sha256": "2d6a91d7b125316abdbb3d60897a7f561e066cf3cb62a746e6defd0dd00c7c07"
+    },
+    "StreamingAssets/VehicleBundles/environment-l06": {
+      "bytes": 23549404,
+      "sha256": "33f6f0d8cac2f2d756589b51abd6b0027b867e966642e00b3ee091df5618e0e0"
+    },
+    "StreamingAssets/VehicleBundles/environment-l07": {
+      "bytes": 22392965,
+      "sha256": "341421569af88e6dd0e1a80eeabd9f4bd4974e7ece4c0481faf014925b32277b"
+    },
+    "StreamingAssets/VehicleBundles/environment-s05": {
+      "bytes": 21039285,
+      "sha256": "5e4c067ae110d2c7e994bf820dd8bd45690ff96bfdec273f0f8c3c3bb7dc38d8"
+    },
+    "StreamingAssets/VehicleBundles/environment-s09": {
+      "bytes": 19151152,
+      "sha256": "1ad3b9644c9d87c4bce4fe8b700b72e56a90d503edc21e5a8d80750d6d229b64"
+    },
+    "StreamingAssets/VehicleBundles/environment-s7": {
+      "bytes": 20288193,
+      "sha256": "10e37239b36b3a7b4dfd2e9765203eb2ae02b06c06f5c51dc3989494a00a7a2e"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-g318": {
+      "bytes": 16360897,
+      "sha256": "37ff62b80ed6328cf3d120775ad73d125ffed8fc5a2b014a6e5fd02d6f522e73"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-g318_2026": {
+      "bytes": 17594556,
+      "sha256": "ced8d01c2551dcac43fb0f46382d8ec16329ef40c92f29ed3f9a7f922907f6eb"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-g318_orv": {
+      "bytes": 17293741,
+      "sha256": "6c977c7801329f76b2210f3cb05c44596cb1841deb1d36babbf0559daf5a16fd"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-l06": {
+      "bytes": 18156623,
+      "sha256": "37fb1fb1e91905f392d21a56e7eb2523831acb83b61bcfa80c7589e81d7aebc6"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-l06_c2l": {
+      "bytes": 17892098,
+      "sha256": "01a454f322e44d618b25d7b744e7a6210c033701d9b3a886847b40e6d8a10787"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-l07": {
+      "bytes": 14889812,
+      "sha256": "ede221b32ae7519b04a547b0563765b0f6cecedbf33caca3a3e2150eac6b4276"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-l07_2025": {
+      "bytes": 15546371,
+      "sha256": "c75cfe1093b48a099700f14ba3392014c83ce8d13d2a2026a50b70f11560cb85"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-l07_2026": {
+      "bytes": 16043256,
+      "sha256": "ffea858bba2d1a48b1f51124d34145e1a2c10368093082e5557606255eed9ffb"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-s05": {
+      "bytes": 11421243,
+      "sha256": "ee6bfafa0a99ed05ade9b9602865834e92faf44fc0f93d8598bc9fc29dbe612e"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-s05_2025": {
+      "bytes": 12225393,
+      "sha256": "71f5ff987efc87bfe82af12f28deeb6873f082a66fcad1ec5f8fe3b2e5a69e8d"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-s05_2026": {
+      "bytes": 16144587,
+      "sha256": "7d890bd599a8b717ed802c99701f5bbfa68469ca2c141fa3d56f5c49a1113866"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-s07": {
+      "bytes": 11234711,
+      "sha256": "faf9e186629d0cb20d9304c2d14f5c828be42a4570d8ea6dff8de1b4392d6df9"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-s07_2026": {
+      "bytes": 10662658,
+      "sha256": "b509ca4077cf4626dc9e9ae5f4c76b0906871df3d0df03a974224988dcdd5fb1"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-s07_2026_bp": {
+      "bytes": 10661410,
+      "sha256": "a44d50ce6536e2e0ddc288923b6f25cfb7414c3d97257fb5ed82d8901ea198a5"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-s07_ev": {
+      "bytes": 10399827,
+      "sha256": "081c79439a0b6ca1dd253e200084d8f5532973685cd10fbf2c25c6bbb289159a"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-s07_eve": {
+      "bytes": 10773125,
+      "sha256": "3b04ffd666dd56a4b55f43754e90541e9018d4bb76578e7a40187e9a924c2ed8"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-s09": {
+      "bytes": 18337320,
+      "sha256": "fe5bae2c3bef24a282bbdd70d5bf0632183a9592584e1c791bc98fb4712d87b4"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-s09_6s": {
+      "bytes": 18432106,
+      "sha256": "761d876732945c1c814365365d827e0922927cf3d91df9ef34b8783e07206d4b"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-s7": {
+      "bytes": 10983177,
+      "sha256": "4b885e88e9e80db5b1b6f98b1135e8f07a38f87ca122ce33aa10af19b58d7be0"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-s7_svp": {
+      "bytes": 10155835,
+      "sha256": "2c6f7c47f1ed7f76fad4876be691ca6aab12686691d56304bb81b634e5b1ad7e"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-sl03": {
+      "bytes": 11161325,
+      "sha256": "c20172a1547f0585a4293729e1b523911782f67be5e9535740a5d99d190849eb"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-sl03_2025": {
+      "bytes": 11269673,
+      "sha256": "caaf1d895fa80f4a0d601d0c628ff82c144ca92fd650fccf95fa2ccf3ca6f604"
+    },
+    "StreamingAssets/VehicleBundles/vehicle-sl03_svp": {
+      "bytes": 10615356,
+      "sha256": "4153f1b490e0526e68361bee44ac5a677deb525aa4ec5fcd135c40e427102b68"
+    },
+    "Icons/air.svg": {
+      "bytes": 1294,
+      "sha256": "42181da0f453d0d62c366d221a7ed37eb893183ab5e0e2ba7fc031b5890c7219"
+    },
+    "Icons/door.svg": {
+      "bytes": 1242,
+      "sha256": "9dc7591767cb68d1af6973313eb6cf4a8bf3ff3800631fc0deb60d6253685254"
+    },
+    "Icons/energy.svg": {
+      "bytes": 580,
+      "sha256": "63bdadbec1574a95f27f8ca37b8cf42c81789a042992efbbafb1f945f993c5d1"
+    },
+    "Icons/flash.svg": {
+      "bytes": 999,
+      "sha256": "bb41db9a979afa479fa58d26eae4e77ea4ac2fb1a33b36046ee5e73fb263330b"
+    },
+    "Icons/menu.svg": {
+      "bytes": 232,
+      "sha256": "41d2bdfe06859229363c0ea4b06f525caf52505f3934519b1c0c8de47ff478d9"
+    },
+    "Icons/minus.svg": {
+      "bytes": 206,
+      "sha256": "7481e60d9a96f20eff782e515d0a91061651188caf57a1879a4e05203156ecfb"
+    },
+    "Icons/plus.svg": {
+      "bytes": 249,
+      "sha256": "c7cef8f5e597592233622ab95b86e11bd9295bf39979ed008e6fe2495973e1b4"
+    },
+    "Icons/trunk.svg": {
+      "bytes": 1299,
+      "sha256": "57d6700a7aeb3a8f3fc788e04e110e5db91d6c7af4df1b1029986b26a4338ac8"
+    },
+    "Icons/window.svg": {
+      "bytes": 407,
+      "sha256": "07426c3c55bad07df1b169c3a32b4108102713a79af98215798035704855b143"
+    },
+    "Icons/wing.svg": {
+      "bytes": 2497,
+      "sha256": "62ea5c598b10b1855bd3e1aab12595198417495d0282d5723498bd7990db74a7"
+    },
+    "vehicles.json": {
+      "bytes": 2951,
+      "sha256": "670e4fa52c5344c6128f665a4918a9307838928a006382f3d2d12616e9e04b06"
+    }
+  },
+  "models": [
+    {
+      "id": "g318",
+      "label": "G318",
+      "environment": "environment-g318"
+    },
+    {
+      "id": "g318_2026",
+      "label": "G318 \u00b7 2026",
+      "environment": "environment-g318"
+    },
+    {
+      "id": "g318_orv",
+      "label": "G318 \u00b7 ORV",
+      "environment": "environment-g318"
+    },
+    {
+      "id": "l06",
+      "label": "L06",
+      "environment": "environment-l06"
+    },
+    {
+      "id": "l06_c2l",
+      "label": "L06 \u00b7 C2L",
+      "environment": "environment-l06"
+    },
+    {
+      "id": "l07",
+      "label": "L07",
+      "environment": "environment-l07"
+    },
+    {
+      "id": "l07_2025",
+      "label": "L07 \u00b7 2025",
+      "environment": "environment-l07"
+    },
+    {
+      "id": "l07_2026",
+      "label": "L07 \u00b7 2026",
+      "environment": "environment-l07"
+    },
+    {
+      "id": "s05",
+      "label": "S05",
+      "environment": "environment-s05"
+    },
+    {
+      "id": "s05_2025",
+      "label": "S05 \u00b7 2025",
+      "environment": "environment-s05"
+    },
+    {
+      "id": "s05_2026",
+      "label": "S05 \u00b7 2026",
+      "environment": "environment-s05"
+    },
+    {
+      "id": "s07",
+      "label": "S07",
+      "environment": "environment-s7"
+    },
+    {
+      "id": "s07_2026",
+      "label": "S07 \u00b7 2026",
+      "environment": "environment-s7"
+    },
+    {
+      "id": "s07_2026_bp",
+      "label": "S07 \u00b7 2026 \u00b7 BP",
+      "environment": "environment-s7"
+    },
+    {
+      "id": "s07_ev",
+      "label": "S07 \u00b7 EV",
+      "environment": "environment-s7"
+    },
+    {
+      "id": "s07_eve",
+      "label": "S07 \u00b7 EVE",
+      "environment": "environment-s7"
+    },
+    {
+      "id": "s09",
+      "label": "S09",
+      "environment": "environment-s09"
+    },
+    {
+      "id": "s09_6s",
+      "label": "S09 \u00b7 6S",
+      "environment": "environment-s09"
+    },
+    {
+      "id": "s7",
+      "label": "S7",
+      "environment": "environment-s7"
+    },
+    {
+      "id": "s7_svp",
+      "label": "S7 \u00b7 SVP",
+      "environment": "environment-s7"
+    },
+    {
+      "id": "sl03",
+      "label": "SL03",
+      "environment": "environment-l07"
+    },
+    {
+      "id": "sl03_2025",
+      "label": "SL03 \u00b7 2025",
+      "environment": "environment-l07"
+    },
+    {
+      "id": "sl03_svp",
+      "label": "SL03 \u00b7 SVP",
+      "environment": "environment-l07"
+    }
+  ],
+  "revision": "4576783c129ce26e"
+}

@@ -37,6 +37,7 @@ async function startUnity(){
   await Promise.all(Object.entries(engineUrls).map(async([key,url])=>{
    const [path,query]=url.split('?');
    const listing=await fetch(path+'.parts.json'+(query?'?'+query:''));
+   if(listing.status===404)return;
    if(!listing.ok)throw new Error('引擎资源索引加载失败：'+listing.status);
    const manifest=await listing.json();const blocks=new Array(manifest.files.length);let next=0;
    async function worker(){while(next<manifest.files.length){const i=next++;let lastError;

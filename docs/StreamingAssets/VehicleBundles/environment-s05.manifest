@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 3728933011
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 59a3e3675c1d2dd292967a6b69726a59
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c82dbb5e4f83608dfc4f5ce44293da46
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 475bad9567c44d32748957a523478d2e
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 667d9385ecf0d4085b19880624df1997, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: .GarageEnvironmentProfile/Reflection
+Assets:
+- Assets/RecoveredVehicles/Environment/S05/Profile.asset
+Dependencies: []

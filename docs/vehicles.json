@@ -1,0 +1,119 @@
+{
+    "models": [
+        {
+            "id": "g318",
+            "label": "G318",
+            "environment": "environment-g318"
+        },
+        {
+            "id": "g318_2026",
+            "label": "G318 · 2026",
+            "environment": "environment-g318"
+        },
+        {
+            "id": "g318_orv",
+            "label": "G318 · ORV",
+            "environment": "environment-g318"
+        },
+        {
+            "id": "l06",
+            "label": "L06",
+            "environment": "environment-l06"
+        },
+        {
+            "id": "l06_c2l",
+            "label": "L06 · C2L",
+            "environment": "environment-l06"
+        },
+        {
+            "id": "l07",
+            "label": "L07",
+            "environment": "environment-l07"
+        },
+        {
+            "id": "l07_2025",
+            "label": "L07 · 2025",
+            "environment": "environment-l07"
+        },
+        {
+            "id": "l07_2026",
+            "label": "L07 · 2026",
+            "environment": "environment-l07"
+        },
+        {
+            "id": "s05",
+            "label": "S05",
+            "environment": "environment-s05"
+        },
+        {
+            "id": "s05_2025",
+            "label": "S05 · 2025",
+            "environment": "environment-s05"
+        },
+        {
+            "id": "s05_2026",
+            "label": "S05 · 2026",
+            "environment": "environment-s05"
+        },
+        {
+            "id": "s07",
+            "label": "S07",
+            "environment": "environment-s7"
+        },
+        {
+            "id": "s07_2026",
+            "label": "S07 · 2026",
+            "environment": "environment-s7"
+        },
+        {
+            "id": "s07_2026_bp",
+            "label": "S07 · 2026 · BP",
+            "environment": "environment-s7"
+        },
+        {
+            "id": "s07_ev",
+            "label": "S07 · EV",
+            "environment": "environment-s7"
+        },
+        {
+            "id": "s07_eve",
+            "label": "S07 · EVE",
+            "environment": "environment-s7"
+        },
+        {
+            "id": "s09",
+            "label": "S09",
+            "environment": "environment-s09"
+        },
+        {
+            "id": "s09_6s",
+            "label": "S09 · 6S",
+            "environment": "environment-s09"
+        },
+        {
+            "id": "s7",
+            "label": "S7",
+            "environment": "environment-s7"
+        },
+        {
+            "id": "s7_svp",
+            "label": "S7 · SVP",
+            "environment": "environment-s7"
+        },
+        {
+            "id": "sl03",
+            "label": "SL03",
+            "environment": "environment-l07"
+        },
+        {
+            "id": "sl03_2025",
+            "label": "SL03 · 2025",
+            "environment": "environment-l07"
+        },
+        {
+            "id": "sl03_svp",
+            "label": "SL03 · SVP",
+            "environment": "environment-l07"
+        }
+    ]
+}

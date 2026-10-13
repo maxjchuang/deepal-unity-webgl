@@ -1,0 +1,91 @@
+ManifestFileVersion: 0
+CRC: 3950080872
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: vehicle-g318
+      Dependencies: {}
+    Info_1:
+      Name: vehicle-g318_2026
+      Dependencies: {}
+    Info_2:
+      Name: vehicle-g318_orv
+      Dependencies: {}
+    Info_3:
+      Name: vehicle-l06
+      Dependencies: {}
+    Info_4:
+      Name: vehicle-l06_c2l
+      Dependencies: {}
+    Info_5:
+      Name: vehicle-l07
+      Dependencies: {}
+    Info_6:
+      Name: vehicle-l07_2025
+      Dependencies: {}
+    Info_7:
+      Name: vehicle-l07_2026
+      Dependencies: {}
+    Info_8:
+      Name: vehicle-s05
+      Dependencies: {}
+    Info_9:
+      Name: vehicle-s05_2025
+      Dependencies: {}
+    Info_10:
+      Name: vehicle-s05_2026
+      Dependencies: {}
+    Info_11:
+      Name: vehicle-s07
+      Dependencies: {}
+    Info_12:
+      Name: vehicle-s07_2026
+      Dependencies: {}
+    Info_13:
+      Name: vehicle-s07_2026_bp
+      Dependencies: {}
+    Info_14:
+      Name: vehicle-s07_ev
+      Dependencies: {}
+    Info_15:
+      Name: vehicle-s07_eve
+      Dependencies: {}
+    Info_16:
+      Name: vehicle-s09
+      Dependencies: {}
+    Info_17:
+      Name: vehicle-s09_6s
+      Dependencies: {}
+    Info_18:
+      Name: vehicle-s7
+      Dependencies: {}
+    Info_19:
+      Name: vehicle-s7_svp
+      Dependencies: {}
+    Info_20:
+      Name: vehicle-sl03
+      Dependencies: {}
+    Info_21:
+      Name: vehicle-sl03_2025
+      Dependencies: {}
+    Info_22:
+      Name: vehicle-sl03_svp
+      Dependencies: {}
+    Info_23:
+      Name: environment-g318
+      Dependencies: {}
+    Info_24:
+      Name: environment-l06
+      Dependencies: {}
+    Info_25:
+      Name: environment-l07
+      Dependencies: {}
+    Info_26:
+      Name: environment-s05
+      Dependencies: {}
+    Info_27:
+      Name: environment-s09
+      Dependencies: {}
+    Info_28:
+      Name: environment-s7
+      Dependencies: {}

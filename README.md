@@ -1,18 +1,24 @@
 # Deepal Unity WebGL
 
-基于 Unity 2023.1.17f1 的独立 3D 车库复现项目，包含 23 个车型变体、6 组环境资源、原资源导入器、GPU shader 移植和网页交互。代码保存在 Git 仓库，大型模型、纹理及可运行网页通过 GitHub Release 提供。
+基于 Unity 2023.1.17f1 的独立 3D 车库复现项目，包含 23 个车型变体、6 组环境资源、原资源导入器、GPU shader 移植和网页交互。代码及可运行网页保存在 Git 仓库，完整 Unity 重建资源由接入脚本自动获取。
 
 该项目独立于 Deepal 官方应用。车控仅操作本地三维模型，不连接真实车辆或用户账号。
 
-## 下载并运行
+## 在线体验
 
-前往 [v0.1.0 发布页](https://github.com/maxjchuang/deepal-unity-webgl/releases/tag/v0.1.0)，下载 `deepal-unity-web-v0.1.0.zip` 并解压。进入 `deepal_unity_s07_web` 目录后运行：
+打开 [GitHub Pages 车库](https://maxjchuang.github.io/deepal-unity-webgl/) 即可直接操作车模。全部渲染和交互在浏览器中执行，车型资源按需从同一静态站点加载，不需要后端 API。
+
+## Clone 后本地运行
+
+仓库 `docs/` 已包含可运行的 Unity WebGL 网页、23 个车型和 6 组环境，不需要安装 Unity 或另行下载资源。
 
 ```sh
-python3 -m http.server 8769 --bind 127.0.0.1
+git clone --depth 1 https://github.com/maxjchuang/deepal-unity-webgl.git
+cd deepal-unity-webgl
+python3 -m http.server 8769 --bind 127.0.0.1 --directory docs
 ```
 
-打开 http://127.0.0.1:8769/ 。需要支持 WebGL 2 和 WebAssembly 的浏览器；不能通过 file 协议直接打开 index.html。首次加载主引擎，切车按需加载对应车型和环境 bundle。
+打开 http://127.0.0.1:8769/ 。Python 只提供静态文件服务；场景逻辑在浏览器中运行。需要支持 WebGL 2 和 WebAssembly 的浏览器，不能通过 file 协议直接打开 index.html。首次加载主引擎，切车按需加载对应车型与环境。仓库包含约 500 MB 的已构建网页资源，首次 clone 和加载需要一定时间。
 
 ## 功能
 
@@ -37,7 +43,7 @@ python3 build_web.py --unity /path/to/Unity
 
 macOS Unity 的路径通常形如 `/Applications/Unity/Hub/Editor/2023.1.17f1/Unity.app/Contents/MacOS/Unity`。脚本依次执行原资源导入、29 个 AssetBundle 构建、WebGL 主程序构建，输出到 `Builds/S07DiagnosticWeb`。首次导入需要较长时间。
 
-资源下载脚本固定版本并验证 SHA-256。也可以从 Release 手动下载 `deepal-unity-resources-v0.1.0.zip`，运行 `python3 tools/fetch_resources.py --archive /path/to/archive.zip` 导入。已有完整本地恢复项目时，可用 `python3 tools/prepare_local_resources.py --source /path/to/local/recovery-project` 接入。
+资源下载脚本固定版本并验证 SHA-256。本地已有资源包时，也可运行 `python3 tools/fetch_resources.py --archive /path/to/archive.zip` 导入。已有完整本地恢复项目时，可用 `python3 tools/prepare_local_resources.py --source /path/to/local/recovery-project` 接入。
 
 ## 目录
 
@@ -46,7 +52,8 @@ macOS Unity 的路径通常形如 `/Applications/Unity/Hub/Editor/2023.1.17f1/Un
 - `Assets/Recovered*Shaders`：恢复的 shader 程序。
 - `Assets/Plugins/WebGL`：Unity 到网页的状态事件。
 - `ShaderReferences` 等目录：GPU 程序参考。
-- `WebHost/index.html`：响应式车库操作界面。
+- `WebHost/index.html`：响应式车库操作界面源码。
+- `docs/`：可直接运行的静态 Unity WebGL 网页及模型 bundle，同时作为 GitHub Pages 发布目录。
 - `tools`：资源接入和下载脚本。
 - `resources.json`：固定版本资源下载地址、大小和校验值。
 - `verification.json`：功能验证范围和已知边界。

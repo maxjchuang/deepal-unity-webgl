@@ -1,0 +1,68 @@
+ManifestFileVersion: 0
+CRC: 1697620316
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: be5663a2bc2e4e72dc6c28a329b15f79
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4dcb92efbdedd48a1d53d48cb3b730cd
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e9be7f9fb481a67b81fede601c89995e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 15e0f2f12d4604f788c22055ce7be8ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7b8fa35b333dc460690c1c4df55ca153, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f136560c163ca41528a1868826266ee9, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: .GarageVehicle/Drawer
+- AssemblyName: Assembly-CSharp
+  ClassName: .GarageVehicle/Extra
+- AssemblyName: Assembly-CSharp
+  ClassName: .GarageVehicle/ExtraPose
+- AssemblyName: Assembly-CSharp
+  ClassName: .GarageVehicle/Global
+- AssemblyName: Assembly-CSharp
+  ClassName: .GarageVehicle/LightBinding
+- AssemblyName: Assembly-CSharp
+  ClassName: .GarageVehicle/Palette
+- AssemblyName: Assembly-CSharp
+  ClassName: .GarageVehicle/PaletteVariant
+- AssemblyName: Assembly-CSharp
+  ClassName: .GarageVehicle/Wheel
+- AssemblyName: Assembly-CSharp
+  ClassName: .NativeCarControls/DoorBinding
+- AssemblyName: Assembly-CSharp
+  ClassName: .NativeCarControls/Motion
+- AssemblyName: Assembly-CSharp
+  ClassName: .RecoveredBloomRegion/Proxy
+- AssemblyName: Assembly-CSharp
+  ClassName: .RecoveredCollisionSurface/Binding
+- AssemblyName: Assembly-CSharp
+  ClassName: .RecoveredLightControls/State
+Assets:
+- Assets/RecoveredVehicles/g318_orv/Vehicle.prefab
+Dependencies: []

@@ -16,25 +16,25 @@
 
 操作四门、车窗、尾门和灯光，实时查看动作效果。
 
-![S07 车身控制与左前门开启效果](media/screenshots/body-controls.jpg)
+![S07 车身控制与左前门开启效果](media/screenshots/body-controls.jpg?v=28780d059a)
 
 ### 外观与场景
 
 切换车漆、内饰、轮毂、天气和时段；图中展示星辰蓝车漆与傍晚场景。
 
-![S07 星辰蓝车漆与傍晚场景设置](media/screenshots/appearance-scene.jpg)
+![S07 星辰蓝车漆与傍晚场景设置](media/screenshots/appearance-scene.jpg?v=3764c880cf)
 
 ### 空调座舱
 
 进入座舱视角，控制冷暖风和座椅加热、通风；图中左前座椅为加热 3 档。
 
-![空调座舱与左前座椅加热显示](media/screenshots/air-conditioning.jpg)
+![空调座舱与左前座椅加热显示](media/screenshots/air-conditioning.jpg?v=e431ce1172)
 
 ### 充电场景
 
 选择左右充电接口及连接状态，查看充电口、线缆和充电场景效果。
 
-![S07 左侧充电口与充电中场景](media/screenshots/charging-scene.jpg)
+![S07 左侧充电口与充电中场景](media/screenshots/charging-scene.jpg?v=9e705ad0a2)
 
 ## Clone 后本地运行
 
